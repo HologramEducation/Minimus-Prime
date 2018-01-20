@@ -479,56 +479,6 @@ F 3 "" H 2950 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
-U 1 1 59DEF665
-P 2525 2350
-F 0 "R3" V 2575 2500 50  0000 C CNN
-F 1 "0" V 2525 2350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 2455 2350 50  0001 C CNN
-F 3 "" H 2525 2350 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 2575 2600 50  0001 C CNN "Link"
-F 5 "RC0402JR-070RL" H 2575 2600 50  0001 C CNN "MPN"
-	1    2525 2350
-	0    1    1    0   
-$EndComp
-$Comp
-L R R2
-U 1 1 59DF0FD6
-P 2525 1925
-F 0 "R2" V 2575 2075 50  0000 C CNN
-F 1 "0" V 2525 1925 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 2455 1925 50  0001 C CNN
-F 3 "" H 2525 1925 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 2575 2175 50  0001 C CNN "Link"
-F 5 "RC0402JR-070RL" H 2575 2175 50  0001 C CNN "MPN"
-	1    2525 1925
-	0    1    1    0   
-$EndComp
-$Comp
-L D_Schottky D5
-U 1 1 59DF13B7
-P 3775 1925
-F 0 "D5" H 3775 2025 50  0000 C CNN
-F 1 "MBR052" H 3775 1825 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 3775 1925 50  0001 C CNN
-F 3 "" H 3775 1925 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965" H 3775 1925 60  0001 C CNN "Link"
-F 5 "MBR0520LT1G" H 3775 1925 60  0001 C CNN "MPN"
-	1    3775 1925
-	-1   0    0    1   
-$EndComp
-$Comp
-L VCC #PWR7
-U 1 1 59DEC663
-P 4125 1600
-F 0 "#PWR7" H 4125 1450 50  0001 C CNN
-F 1 "VCC" H 4125 1750 50  0000 C CNN
-F 2 "" H 4125 1600 50  0001 C CNN
-F 3 "" H 4125 1600 50  0001 C CNN
-	1    4125 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C16
 U 1 1 59DF4B51
 P 8275 16450
@@ -1000,19 +950,6 @@ F 5 "NULL" H 11650 7100 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Schottky D6
-U 1 1 59E4DBD8
-P 3775 2350
-F 0 "D6" H 3775 2450 50  0000 C CNN
-F 1 "MBR052" H 3775 2250 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 3775 2350 50  0001 C CNN
-F 3 "" H 3775 2350 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965" H 3775 2350 60  0001 C CNN "Link"
-F 5 "MBR0520LT1G" H 3775 2350 60  0001 C CNN "MPN"
-	1    3775 2350
-	-1   0    0    1   
-$EndComp
-$Comp
 L D_Schottky D7
 U 1 1 59E4DD01
 P 3775 2825
@@ -1331,10 +1268,6 @@ Text Label 5550 3650 2    60   ~ 0
 UBLOX_SARA_USB_D_P
 Text Label 5550 3750 2    60   ~ 0
 UBLOX_SARA_USB_D_N
-Text Label 2200 2350 2    60   ~ 0
-PB_USB_DC
-Text Label 2200 1925 2    60   ~ 0
-PB_VDD_5V
 Text Label 2725 2825 0    60   ~ 0
 EXT_5V
 Text Label 11600 3250 2    60   ~ 0
@@ -1989,27 +1922,13 @@ Wire Wire Line
 Wire Wire Line
 	2725 2825 3625 2825
 Wire Wire Line
-	4125 2825 3925 2825
-Wire Wire Line
-	4125 1600 4125 3450
+	3925 2825 4375 2825
 Wire Wire Line
 	4125 3450 4025 3450
 Wire Wire Line
 	2725 2925 2950 2925
 Wire Wire Line
 	2950 2925 2950 3050
-Wire Wire Line
-	2375 2350 2200 2350
-Wire Wire Line
-	2675 2350 3625 2350
-Wire Wire Line
-	3925 2350 4125 2350
-Wire Wire Line
-	2200 1925 2375 1925
-Wire Wire Line
-	3625 1925 2675 1925
-Wire Wire Line
-	3925 1925 4125 1925
 Wire Wire Line
 	10700 3750 11600 3750
 Wire Wire Line
@@ -2430,9 +2349,6 @@ Connection ~ 7050 5250
 Connection ~ 7050 4875
 Connection ~ 8575 2550
 Connection ~ 8575 2650
-Connection ~ 4125 2825
-Connection ~ 4125 2350
-Connection ~ 4125 1925
 Connection ~ 3525 3650
 Connection ~ 3725 3750
 Connection ~ 2675 4525
@@ -2927,4 +2843,31 @@ Wire Wire Line
 	7350 19000 7225 19000
 Wire Wire Line
 	7650 19000 8500 19000
+Wire Wire Line
+	4125 2825 4125 3450
+Text GLabel 4375 2825 2    60   Input ~ 0
+Module_Vin
+Connection ~ 4125 2825
+Text GLabel 2975 2250 0    60   Input ~ 0
+BoardEdgeVin
+$Comp
+L D_Schottky D?
+U 1 1 5A722A06
+P 3775 2250
+F 0 "D?" H 3775 2350 50  0000 C CNN
+F 1 "MBR052" H 3775 2150 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 3775 2250 50  0001 C CNN
+F 3 "" H 3775 2250 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965" H 3775 2250 60  0001 C CNN "Link"
+F 5 "MBR0520LT1G" H 3775 2250 60  0001 C CNN "MPN"
+	1    3775 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2975 2250 3625 2250
+Wire Wire Line
+	3925 2250 4175 2250
+Wire Wire Line
+	4175 2250 4175 2825
+Connection ~ 4175 2825
 $EndSCHEMATC
