@@ -1,4 +1,4 @@
-update=Saturday, January 20, 2018 'AMt' 12:12:42 AM
+update=1/20/2018 9:58:45 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -124,3 +124,4 @@ LibName92=Xicor
 LibName93=xilinx
 LibName94=zetex
 LibName95=Zilog
+LibName96=minimus-prime
