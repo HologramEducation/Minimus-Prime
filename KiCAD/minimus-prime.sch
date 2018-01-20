@@ -479,56 +479,6 @@ F 3 "" H 2950 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
-U 1 1 59DEF665
-P 2525 2350
-F 0 "R3" V 2575 2500 50  0000 C CNN
-F 1 "0" V 2525 2350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 2455 2350 50  0001 C CNN
-F 3 "" H 2525 2350 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 2575 2600 50  0001 C CNN "Link"
-F 5 "RC0402JR-070RL" H 2575 2600 50  0001 C CNN "MPN"
-	1    2525 2350
-	0    1    1    0   
-$EndComp
-$Comp
-L R R2
-U 1 1 59DF0FD6
-P 2525 1925
-F 0 "R2" V 2575 2075 50  0000 C CNN
-F 1 "0" V 2525 1925 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 2455 1925 50  0001 C CNN
-F 3 "" H 2525 1925 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 2575 2175 50  0001 C CNN "Link"
-F 5 "RC0402JR-070RL" H 2575 2175 50  0001 C CNN "MPN"
-	1    2525 1925
-	0    1    1    0   
-$EndComp
-$Comp
-L D_Schottky D5
-U 1 1 59DF13B7
-P 3775 1925
-F 0 "D5" H 3775 2025 50  0000 C CNN
-F 1 "MBR052" H 3775 1825 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 3775 1925 50  0001 C CNN
-F 3 "" H 3775 1925 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965" H 3775 1925 60  0001 C CNN "Link"
-F 5 "MBR0520LT1G" H 3775 1925 60  0001 C CNN "MPN"
-	1    3775 1925
-	-1   0    0    1   
-$EndComp
-$Comp
-L VCC #PWR7
-U 1 1 59DEC663
-P 4125 1600
-F 0 "#PWR7" H 4125 1450 50  0001 C CNN
-F 1 "VCC" H 4125 1750 50  0000 C CNN
-F 2 "" H 4125 1600 50  0001 C CNN
-F 3 "" H 4125 1600 50  0001 C CNN
-	1    4125 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C16
 U 1 1 59DF4B51
 P 8275 16450
@@ -1000,19 +950,6 @@ F 5 "NULL" H 11650 7100 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Schottky D6
-U 1 1 59E4DBD8
-P 3775 2350
-F 0 "D6" H 3775 2450 50  0000 C CNN
-F 1 "MBR052" H 3775 2250 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 3775 2350 50  0001 C CNN
-F 3 "" H 3775 2350 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965" H 3775 2350 60  0001 C CNN "Link"
-F 5 "MBR0520LT1G" H 3775 2350 60  0001 C CNN "MPN"
-	1    3775 2350
-	-1   0    0    1   
-$EndComp
-$Comp
 L D_Schottky D7
 U 1 1 59E4DD01
 P 3775 2825
@@ -1159,30 +1096,6 @@ F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-0710KL/311-10KJRTR
 F 5 "RC0402JR-0710KL" H 7200 20150 50  0001 C CNN "MPN"
 	1    7150 19875
 	-1   0    0    1   
-$EndComp
-$Comp
-L VCC #PWR11
-U 1 1 59E61248
-P 6300 19050
-F 0 "#PWR11" H 6300 18900 50  0001 C CNN
-F 1 "VCC" H 6300 19200 50  0000 C CNN
-F 2 "" H 6300 19050 50  0001 C CNN
-F 3 "" H 6300 19050 50  0001 C CNN
-	1    6300 19050
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R8
-U 1 1 59E6260D
-P 7500 19050
-F 0 "R8" V 7550 19225 50  0000 C CNN
-F 1 "0" V 7500 19050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 7430 19050 50  0001 C CNN
-F 3 "" H 7500 19050 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 7550 19325 50  0001 C CNN "Link"
-F 5 "RC0402JR-070RL" H 7550 19325 50  0001 C CNN "MPN"
-	1    7500 19050
-	0    -1   -1   0   
 $EndComp
 $Comp
 L R R9
@@ -1355,10 +1268,6 @@ Text Label 5550 3650 2    60   ~ 0
 UBLOX_SARA_USB_D_P
 Text Label 5550 3750 2    60   ~ 0
 UBLOX_SARA_USB_D_N
-Text Label 2200 2350 2    60   ~ 0
-PB_USB_DC
-Text Label 2200 1925 2    60   ~ 0
-PB_VDD_5V
 Text Label 2725 2825 0    60   ~ 0
 EXT_5V
 Text Label 11600 3250 2    60   ~ 0
@@ -1417,8 +1326,6 @@ Text Notes 2600 11825 0    118  ~ 0
 Discharge Circuit
 Text Label 7250 19300 2    60   ~ 0
 UBLOX_1.8V_SUPPLY
-Text Label 7875 19050 2    59   ~ 0
-HV
 Text Label 7875 19300 2    59   ~ 0
 LV
 Text Label 7150 19600 2    59   ~ 0
@@ -1565,21 +1472,6 @@ F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/MMBT3904LT1G/MMB
 	1    4850 7725
 	1    0    0    -1  
 $EndComp
-$Comp
-L R R29
-U 1 1 5A2172EC
-P 7500 18875
-F 0 "R29" V 7550 19050 50  0000 C CNN
-F 1 "0" V 7500 18875 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 7430 18875 50  0001 C CNN
-F 3 "" H 7500 18875 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 7550 19150 50  0001 C CNN "Link"
-F 5 "RC0402JR-070RL" H 7550 19150 50  0001 C CNN "MPN"
-	1    7500 18875
-	0    -1   -1   0   
-$EndComp
-Text Label 6400 18875 0    65   ~ 0
-VDD_3V3B_TOP
 Text GLabel 2625 6575 0    60   Input ~ 0
 Module_Vin
 Text GLabel 4825 6625 0    60   Input ~ 0
@@ -2030,27 +1922,13 @@ Wire Wire Line
 Wire Wire Line
 	2725 2825 3625 2825
 Wire Wire Line
-	4125 2825 3925 2825
-Wire Wire Line
-	4125 1600 4125 3450
+	3925 2825 4375 2825
 Wire Wire Line
 	4125 3450 4025 3450
 Wire Wire Line
 	2725 2925 2950 2925
 Wire Wire Line
 	2950 2925 2950 3050
-Wire Wire Line
-	2375 2350 2200 2350
-Wire Wire Line
-	2675 2350 3625 2350
-Wire Wire Line
-	3925 2350 4125 2350
-Wire Wire Line
-	2200 1925 2375 1925
-Wire Wire Line
-	3625 1925 2675 1925
-Wire Wire Line
-	3925 1925 4125 1925
 Wire Wire Line
 	10700 3750 11600 3750
 Wire Wire Line
@@ -2322,11 +2200,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 19600 7150 19725
 Wire Wire Line
-	6300 19050 7350 19050
-Wire Wire Line
 	7350 19300 7250 19300
-Wire Wire Line
-	7650 19050 8500 19050
 Wire Wire Line
 	7650 19300 8250 19300
 Wire Wire Line
@@ -2398,7 +2272,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 19300 8250 19350
 Wire Wire Line
-	8500 19050 8500 19350
+	8500 19000 8500 19350
 Connection ~ 10800 16700
 Connection ~ 10300 16700
 Connection ~ 10025 16700
@@ -2475,9 +2349,6 @@ Connection ~ 7050 5250
 Connection ~ 7050 4875
 Connection ~ 8575 2550
 Connection ~ 8575 2650
-Connection ~ 4125 2825
-Connection ~ 4125 2350
-Connection ~ 4125 1925
 Connection ~ 3525 3650
 Connection ~ 3725 3750
 Connection ~ 2675 4525
@@ -2531,13 +2402,6 @@ Connection ~ 10875 20400
 Connection ~ 10875 20825
 Connection ~ 11525 20825
 Connection ~ 8400 19700
-Wire Wire Line
-	7650 18875 8100 18875
-Wire Wire Line
-	8100 18875 8100 19050
-Connection ~ 8100 19050
-Wire Wire Line
-	6400 18875 7350 18875
 Wire Wire Line
 	18075 1950 17125 1950
 Wire Wire Line
@@ -2960,4 +2824,50 @@ Text Label 27650 1450 0    60   ~ 0
 USR_TMS_SWDIO
 Text Label 27650 1550 0    60   ~ 0
 USR_TCK_SWDCLK
+Text GLabel 7225 19000 0    60   Input ~ 0
+m0_power
+$Comp
+L R R?
+U 1 1 5A711355
+P 7500 19000
+F 0 "R?" V 7550 19175 50  0000 C CNN
+F 1 "0" V 7500 19000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 7430 19000 50  0001 C CNN
+F 3 "" H 7500 19000 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 7550 19275 50  0001 C CNN "Link"
+F 5 "RC0402JR-070RL" H 7550 19275 50  0001 C CNN "MPN"
+	1    7500 19000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7350 19000 7225 19000
+Wire Wire Line
+	7650 19000 8500 19000
+Wire Wire Line
+	4125 2825 4125 3450
+Text GLabel 4375 2825 2    60   Input ~ 0
+Module_Vin
+Connection ~ 4125 2825
+Text GLabel 2975 2250 0    60   Input ~ 0
+BoardEdgeVin
+$Comp
+L D_Schottky D?
+U 1 1 5A722A06
+P 3775 2250
+F 0 "D?" H 3775 2350 50  0000 C CNN
+F 1 "MBR052" H 3775 2150 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 3775 2250 50  0001 C CNN
+F 3 "" H 3775 2250 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965" H 3775 2250 60  0001 C CNN "Link"
+F 5 "MBR0520LT1G" H 3775 2250 60  0001 C CNN "MPN"
+	1    3775 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2975 2250 3625 2250
+Wire Wire Line
+	3925 2250 4175 2250
+Wire Wire Line
+	4175 2250 4175 2825
+Connection ~ 4175 2825
 $EndSCHEMATC
