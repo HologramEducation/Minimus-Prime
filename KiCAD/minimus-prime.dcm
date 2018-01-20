@@ -1,3 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LED_CRBG
+D LED RGB, Common Cathode
+K led rgb diode
+$ENDCMP
+#
+$CMP LED_CRGB
+D LED RGB, Common Cathode
+K led rgb diode
+$ENDCMP
+#
 #End Doc Library
