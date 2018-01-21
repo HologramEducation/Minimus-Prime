@@ -1158,15 +1158,15 @@ $EndComp
 $Comp
 L R R11
 U 1 1 5A6B5F46
-P 21075 5350
-F 0 "R11" V 21125 5500 50  0000 C CNN
-F 1 "0" V 21075 5350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 21005 5350 50  0001 C CNN
-F 3 "" H 21075 5350 50  0001 C CNN
-F 4 "RC0402JR-070RL" H 21125 5600 50  0001 C CNN "MPN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 21125 5600 50  0001 C CNN "Link"
-F 6 "N" H 21075 5350 60  0000 C CNN "Populated"
-	1    21075 5350
+P 22550 3800
+F 0 "R11" V 22600 3950 50  0000 C CNN
+F 1 "0" V 22550 3800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 22480 3800 50  0001 C CNN
+F 3 "" H 22550 3800 50  0001 C CNN
+F 4 "RC0402JR-070RL" H 22600 4050 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 22600 4050 50  0001 C CNN "Link"
+F 6 "N" H 22550 3800 60  0000 C CNN "Populated"
+	1    22550 3800
 	0    1    1    0   
 $EndComp
 Text Label 22425 1500 2    60   ~ 0
@@ -1319,13 +1319,9 @@ Text Label 26325 6000 0    59   ~ 0
 STATUS2
 Text Label 16925 1950 0    59   ~ 0
 USER_RX
-Text Label 22400 3800 2    60   ~ 0
-PWM_B
-Text Label 22400 3700 2    60   ~ 0
-PWM_G
 Text Label 22700 3600 0    59   ~ 0
 STATUS1
-Text Label 21425 5350 0    59   ~ 0
+Text Label 22700 3800 0    59   ~ 0
 STATUS2
 Text Label 16375 8525 2    59   ~ 0
 MOD_EN
@@ -2122,15 +2118,11 @@ Connection ~ 22400 4700
 Wire Wire Line
 	20925 5350 20875 5350
 Wire Wire Line
-	21225 5350 21425 5350
+	22700 3800 22700 3800
 Wire Wire Line
 	20875 4150 22400 4150
 Wire Wire Line
 	20875 4050 22400 4050
-Wire Wire Line
-	20875 3800 22400 3800
-Wire Wire Line
-	20875 3700 22400 3700
 Wire Wire Line
 	20875 3600 22400 3600
 Wire Wire Line
@@ -2307,4 +2299,6 @@ Wire Wire Line
 Connection ~ 10925 19275
 Text Notes 6625 21025 0    60   ~ 0
 Simplified for lower part count
+Wire Wire Line
+	22400 3800 20875 3800
 $EndSCHEMATC

@@ -353,56 +353,6 @@ F 5 "PESD0402-140" H 10300 16450 60  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L USB_OTG J3
-U 1 1 59DE98BF
-P 2675 3650
-F 0 "J3" H 2475 4100 50  0000 L CNN
-F 1 "USB_OTG" H 2475 4000 50  0000 L CNN
-F 2 "Connectors:USB_Micro-B" H 2825 3600 50  0001 C CNN
-F 3 "" H 2825 3600 50  0001 C CNN
-F 4 "10118194-0001LF" H 2475 4200 50  0001 C CNN "MPN"
-F 5 "https://www.digikey.com/product-detail/en/amphenol-fci/10118194-0001LF/609-4618-1-ND/2785382" H 2475 4200 50  0001 C CNN "Link"
-	1    2675 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R13
-U 1 1 59DE9C15
-P 3900 3650
-F 0 "R13" V 3950 3800 50  0000 C CNN
-F 1 "22" V 3900 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 3830 3650 50  0001 C CNN
-F 3 "" H 3900 3650 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-0722RL/311-22.0LRTR-ND/726562" H 3950 3900 50  0001 C CNN "Link"
-F 5 "RC0402FR-0722RL" H 3950 3900 50  0001 C CNN "MPN"
-	1    3900 3650
-	0    1    1    0   
-$EndComp
-$Comp
-L R R16
-U 1 1 59DE9C99
-P 4200 3750
-F 0 "R16" V 4250 3900 50  0000 C CNN
-F 1 "22" V 4200 3750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 4130 3750 50  0001 C CNN
-F 3 "" H 4200 3750 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-0722RL/311-22.0LRTR-ND/726562" H 4250 4000 50  0001 C CNN "Link"
-F 5 "RC0402FR-0722RL" H 4250 4000 50  0001 C CNN "MPN"
-	1    4200 3750
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR07
-U 1 1 59DEA8AA
-P 2675 4575
-F 0 "#PWR07" H 2675 4325 50  0001 C CNN
-F 1 "GND" H 2675 4425 50  0000 C CNN
-F 2 "" H 2675 4575 50  0001 C CNN
-F 3 "" H 2675 4575 50  0001 C CNN
-	1    2675 4575
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C16
 U 1 1 59DF4B51
 P 8275 16450
@@ -427,84 +377,6 @@ F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/
 F 5 "GRM1555C1H470JA01" H 8475 16450 60  0001 C CNN "MPN"
 	1    8475 16450
 	1    0    0    1   
-$EndComp
-$Comp
-L D_TVS_ALT D4
-U 1 1 59DF7278
-P 3725 4200
-F 0 "D4" V 3500 4100 50  0000 C CNN
-F 1 "PESD0402" H 3775 4100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 3725 4200 50  0001 C CNN
-F 3 "" H 3725 4200 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/littelfuse-inc/PESD0402-140/PESD0402-140CT-ND/1968526" H 3500 4200 50  0001 C CNN "Link"
-F 5 "PESD0402-140" H 3725 4200 60  0001 C CNN "MPN"
-	1    3725 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L D_TVS_ALT D3
-U 1 1 59DF821E
-P 3525 4200
-F 0 "D3" V 3300 4100 50  0000 C CNN
-F 1 "PESD0402" H 3575 4100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 3525 4200 50  0001 C CNN
-F 3 "" H 3525 4200 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/littelfuse-inc/PESD0402-140/PESD0402-140CT-ND/1968526" H 3300 4200 50  0001 C CNN "Link"
-F 5 "PESD0402-140" H 3525 4200 60  0001 C CNN "MPN"
-	1    3525 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L R R4
-U 1 1 59DF91CD
-P 2575 4250
-F 0 "R4" V 2625 4400 50  0000 C CNN
-F 1 "0" V 2575 4250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 2505 4250 50  0001 C CNN
-F 3 "" H 2575 4250 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 2625 4500 50  0001 C CNN "Link"
-F 5 "RC0402JR-070RL" H 2625 4500 50  0001 C CNN "MPN"
-	1    2575 4250
-	-1   0    0    1   
-$EndComp
-$Comp
-L D_TVS_ALT D2
-U 1 1 59DFCE87
-P 3325 4200
-F 0 "D2" V 3100 4100 50  0000 C CNN
-F 1 "PESD0402" H 3375 4100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 3325 4200 50  0001 C CNN
-F 3 "" H 3325 4200 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/littelfuse-inc/PESD0402-140/PESD0402-140CT-ND/1968526" H 3100 4200 50  0001 C CNN "Link"
-F 5 "PESD0402-140" H 3325 4200 60  0001 C CNN "MPN"
-	1    3325 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L C C6
-U 1 1 59DFE01A
-P 3075 4200
-F 0 "C6" H 2975 4425 50  0000 L CNN
-F 1 "2.2U" V 2950 4125 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3113 4050 50  0001 C CNN
-F 3 "" H 3075 4200 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL10A225MQ8NNNC/1276-1888-1-ND/3889974" H 3075 4200 60  0001 C CNN "Link"
-F 5 "CL10A225MQ8NNNC" H 3075 4200 60  0001 C CNN "MPN"
-	1    3075 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R15
-U 1 1 59E053E4
-P 3950 3850
-F 0 "R15" V 4000 4000 50  0000 C CNN
-F 1 "0" V 3950 3850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 3880 3850 50  0001 C CNN
-F 3 "" H 3950 3850 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 4000 4100 50  0001 C CNN "Link"
-F 5 "RC0402JR-070RL" H 3950 3850 60  0001 C CNN "MPN"
-	1    3950 3850
-	0    1    1    0   
 $EndComp
 $Comp
 L LED D1
@@ -686,54 +558,6 @@ F 3 "" H 3250 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky D8
-U 1 1 59E4DE33
-P 3875 3450
-F 0 "D8" H 3875 3550 50  0000 C CNN
-F 1 "MBR052" H 3875 3350 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 3875 3450 50  0001 C CNN
-F 3 "" H 3875 3450 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965" H 3875 3450 60  0001 C CNN "Link"
-F 5 "MBR0520LT1G" H 3875 3450 60  0001 C CNN "MPN"
-	1    3875 3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR010
-U 1 1 59E11C8C
-P 4250 4000
-F 0 "#PWR010" H 4250 3750 50  0001 C CNN
-F 1 "GND" H 4250 3850 50  0000 C CNN
-F 2 "" H 4250 4000 50  0001 C CNN
-F 3 "" H 4250 4000 50  0001 C CNN
-	1    4250 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR011
-U 1 1 59E11DAB
-P 4800 5275
-F 0 "#PWR011" H 4800 5025 50  0001 C CNN
-F 1 "GND" H 4800 5125 50  0000 C CNN
-F 2 "" H 4800 5275 50  0001 C CNN
-F 3 "" H 4800 5275 50  0001 C CNN
-	1    4800 5275
-	0    -1   -1   0   
-$EndComp
-$Comp
-L L L2
-U 1 1 59DF0675
-P 3525 3450
-F 0 "L2" V 3475 3450 50  0000 C CNN
-F 1 "NOPE" V 3600 3450 50  0000 C CNN
-F 2 "Inductors_SMD:L_0402" H 3525 3450 50  0001 C CNN
-F 3 "" H 3525 3450 50  0001 C CNN
-F 4 "NULL" H 3475 3550 50  0001 C CNN "Link"
-F 5 "NULL" H 3475 3550 50  0001 C CNN "MPN"
-	1    3525 3450
-	0    -1   -1   0   
-$EndComp
-$Comp
 L R R42
 U 1 1 59E5B9DA
 P 9725 19625
@@ -809,22 +633,10 @@ Text Label 11600 3650 2    60   ~ 0
 UBLOX_SIM_CLK
 Text Label 11600 3550 2    60   ~ 0
 UBLOX_SIM_IO
-Text Label 5550 3650 2    60   ~ 0
-UBLOX_SARA_USB_D_P
-Text Label 5550 3750 2    60   ~ 0
-UBLOX_SARA_USB_D_N
 Text Label 11600 3250 2    60   ~ 0
 SIM_DET
 Text Label 11600 3750 2    60   ~ 0
 UBLOX_SIM_RST
-Text Notes 2725 1175 0    118  ~ 0
-Power Inputs
-Text Label 4000 5025 2    65   ~ 0
-(U1.L15)USB1.D+
-Text Label 4000 5150 2    65   ~ 0
-(U1.L16)USB1.D-
-Text Label 4000 5275 2    65   ~ 0
-(U1.L14)USB1.ID
 Text Notes 9400 19025 0    118  ~ 0
 Serial Level Translation
 Text Label 7450 16050 0    60   ~ 0
@@ -1219,19 +1031,6 @@ USR_TMS_SWDIO
 Text Label 26325 6900 0    60   ~ 0
 USR_TCK_SWDCLK
 $Comp
-L D_Schottky D5
-U 1 1 5A722A06
-P 3775 2250
-F 0 "D5" H 3775 2350 50  0000 C CNN
-F 1 "MBR052" H 3775 2150 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 3775 2250 50  0001 C CNN
-F 3 "" H 3775 2250 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965" H 3775 2250 60  0001 C CNN "Link"
-F 5 "MBR0520LT1G" H 3775 2250 60  0001 C CNN "MPN"
-	1    3775 2250
-	-1   0    0    1   
-$EndComp
-$Comp
 L TEST TP1
 U 1 1 5A7543B3
 P 7900 3850
@@ -1286,21 +1085,6 @@ Text Label 26325 7200 0    59   ~ 0
 GND
 Text Label 26325 7300 0    59   ~ 0
 GND
-Text GLabel 4375 2825 2    60   Input ~ 0
-Module_Vin_4.2_to_3.3
-$Comp
-L R R1
-U 1 1 5A7DF799
-P 3775 1975
-F 0 "R1" V 3825 2125 50  0000 C CNN
-F 1 "0" V 3775 1975 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 3705 1975 50  0001 C CNN
-F 3 "" H 3775 1975 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 3825 2225 50  0001 C CNN "Link"
-F 5 "RC0402JR-070RL" H 3825 2225 50  0001 C CNN "MPN"
-	1    3775 1975
-	0    1    1    0   
-$EndComp
 Text Label 4650 7550 2    59   ~ 0
 GPIO2
 Text GLabel 4825 6625 0    59   Input ~ 0
@@ -1325,8 +1109,6 @@ Text Label 22700 3800 0    59   ~ 0
 STATUS2
 Text Label 16375 8525 2    59   ~ 0
 MOD_EN
-Text GLabel 26200 6600 0    60   Input ~ 0
-BoardEdge_Vin_4.2_to_3.3
 Text GLabel 23300 2275 2    60   Input ~ 0
 User_Vin_3.3
 $Comp
@@ -1355,55 +1137,11 @@ F 5 "RC0402JR-0710KL" H 22975 2800 50  0001 C CNN "MPN"
 	1    22925 2525
 	1    0    0    -1  
 $EndComp
-Text GLabel 2975 2250 0    60   Input ~ 0
-BoardEdge_Vin_4.2_to_3.3
 $Comp
-L R R17
-U 1 1 5A8731A6
-P 4250 5025
-F 0 "R17" V 4300 5175 50  0000 C CNN
-F 1 "0" V 4250 5025 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 4180 5025 50  0001 C CNN
-F 3 "" H 4250 5025 50  0001 C CNN
-F 4 "RC0402JR-070RL" H 4300 5275 50  0001 C CNN "MPN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 4300 5275 50  0001 C CNN "Link"
-F 6 "N" H 4250 5025 60  0000 C CNN "Populated"
-	1    4250 5025
-	0    1    1    0   
-$EndComp
-$Comp
-L R R18
-U 1 1 5A873E98
-P 4250 5150
-F 0 "R18" V 4300 5300 50  0000 C CNN
-F 1 "0" V 4250 5150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 4180 5150 50  0001 C CNN
-F 3 "" H 4250 5150 50  0001 C CNN
-F 4 "RC0402JR-070RL" H 4300 5400 50  0001 C CNN "MPN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 4300 5400 50  0001 C CNN "Link"
-F 6 "N" H 4250 5150 60  0000 C CNN "Populated"
-	1    4250 5150
-	0    1    1    0   
-$EndComp
-$Comp
-L R R19
-U 1 1 5A8740AD
-P 4250 5275
-F 0 "R19" V 4300 5425 50  0000 C CNN
-F 1 "0" V 4250 5275 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 4180 5275 50  0001 C CNN
-F 3 "" H 4250 5275 50  0001 C CNN
-F 4 "RC0402JR-070RL" H 4300 5525 50  0001 C CNN "MPN"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 4300 5525 50  0001 C CNN "Link"
-F 6 "N" H 4250 5275 60  0000 C CNN "Populated"
-	1    4250 5275
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR017
+L GND #PWR016
 U 1 1 5A87E32D
 P 7975 4750
-F 0 "#PWR017" H 7975 4500 50  0001 C CNN
+F 0 "#PWR016" H 7975 4500 50  0001 C CNN
 F 1 "GND" H 7975 4600 50  0000 C CNN
 F 2 "" H 7975 4750 50  0001 C CNN
 F 3 "" H 7975 4750 50  0001 C CNN
@@ -1453,10 +1191,10 @@ F 6 "Y" H 15575 8400 60  0001 C CNN "Populated"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #GND018
+L GND #GND017
 U 1 1 5A8E9A33
 P 15575 8775
-F 0 "#GND018" H 15575 8775 45  0001 L BNN
+F 0 "#GND017" H 15575 8775 45  0001 L BNN
 F 1 "GND" H 15475 8675 45  0000 L BNN
 F 2 "" H 15575 8775 60  0001 C CNN
 F 3 "" H 15575 8775 60  0001 C CNN
@@ -1692,73 +1430,11 @@ Wire Wire Line
 Wire Wire Line
 	10700 3650 11600 3650
 Wire Wire Line
-	2975 3750 4050 3750
-Wire Wire Line
-	2975 3650 3750 3650
-Wire Wire Line
-	4050 3650 5550 3650
-Wire Wire Line
-	4350 3750 5550 3750
-Wire Wire Line
-	2675 4050 2675 4575
-Wire Wire Line
-	2975 3450 3375 3450
-Wire Wire Line
-	4125 3450 4025 3450
-Wire Wire Line
 	10700 3750 11600 3750
-Wire Wire Line
-	3525 4050 3525 3650
-Wire Wire Line
-	3725 4050 3725 3750
-Wire Wire Line
-	3525 4525 3525 4350
-Wire Wire Line
-	2675 4525 3725 4525
-Wire Wire Line
-	3725 4525 3725 4350
-Wire Wire Line
-	2575 4050 2575 4100
-Wire Wire Line
-	2575 4400 2575 4475
-Wire Wire Line
-	2575 4475 2675 4475
-Wire Notes Line
-	925  950  925  5350
-Wire Notes Line
-	925  5350 5550 5350
-Wire Notes Line
-	5550 5350 5550 950 
-Wire Notes Line
-	5550 950  925  950 
-Wire Wire Line
-	3325 3450 3325 4050
-Wire Wire Line
-	3325 4350 3325 4525
-Wire Wire Line
-	3075 4050 3075 3450
-Wire Wire Line
-	3075 4350 3075 4525
 Wire Wire Line
 	7450 15850 10800 15850
 Wire Wire Line
 	10300 15850 10300 16300
-Wire Wire Line
-	4100 5025 4000 5025
-Wire Wire Line
-	4000 5150 4100 5150
-Wire Wire Line
-	4400 5025 4400 3650
-Wire Wire Line
-	4475 3750 4475 5150
-Wire Wire Line
-	4475 5150 4400 5150
-Wire Wire Line
-	4100 5275 4000 5275
-Wire Wire Line
-	4400 5275 4800 5275
-Wire Wire Line
-	3800 3850 2975 3850
 Wire Wire Line
 	8275 16700 10800 16700
 Wire Wire Line
@@ -1871,12 +1547,6 @@ Wire Notes Line
 	5550 11350 5550 8975
 Wire Notes Line
 	5550 8975 925  8975
-Wire Wire Line
-	4100 3850 4250 3850
-Wire Wire Line
-	4250 3850 4250 4000
-Wire Wire Line
-	3675 3450 3725 3450
 Wire Wire Line
 	9725 19775 9725 19875
 Wire Wire Line
@@ -1991,17 +1661,6 @@ Connection ~ 7050 5250
 Connection ~ 7050 4875
 Connection ~ 8575 2550
 Connection ~ 8575 2650
-Connection ~ 3525 3650
-Connection ~ 3725 3750
-Connection ~ 2675 4525
-Connection ~ 3525 4525
-Connection ~ 2675 4475
-Connection ~ 3325 3450
-Connection ~ 3325 4525
-Connection ~ 3075 3450
-Connection ~ 3075 4525
-Connection ~ 4400 3650
-Connection ~ 4475 3750
 Connection ~ 10300 15850
 Connection ~ 8275 15850
 Connection ~ 10650 15850
@@ -2148,15 +1807,6 @@ Wire Wire Line
 Wire Wire Line
 	20875 1600 22425 1600
 Wire Wire Line
-	4125 2825 4125 3450
-Wire Wire Line
-	2975 2250 3625 2250
-Wire Wire Line
-	3925 2250 4175 2250
-Wire Wire Line
-	4175 2250 4175 2825
-Connection ~ 4175 2825
-Wire Wire Line
 	7900 3850 7900 3950
 Connection ~ 7900 3950
 Wire Wire Line
@@ -2193,18 +1843,6 @@ Wire Wire Line
 	27575 7200 26325 7200
 Wire Wire Line
 	27575 7300 26325 7300
-Wire Wire Line
-	3625 1975 3500 1975
-Wire Wire Line
-	3500 1975 3500 2250
-Connection ~ 3500 2250
-Wire Wire Line
-	3925 1975 4150 1975
-Wire Wire Line
-	4150 1975 4150 2250
-Connection ~ 4150 2250
-Wire Wire Line
-	4125 2825 4375 2825
 Wire Wire Line
 	1625 7475 2750 7475
 Wire Wire Line
@@ -2301,4 +1939,6 @@ Text Notes 6625 21025 0    60   ~ 0
 Simplified for lower part count
 Wire Wire Line
 	22400 3800 20875 3800
+Text GLabel 26200 6600 0    60   Input ~ 0
+Module_Vin_4.2_to_3.3
 $EndSCHEMATC
