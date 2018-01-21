@@ -1,4 +1,4 @@
-update=1/20/2018 9:58:45 AM
+update=1/20/2018 9:41:06 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -125,3 +125,13 @@ LibName93=xilinx
 LibName94=zetex
 LibName95=Zilog
 LibName96=minimus-prime
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
