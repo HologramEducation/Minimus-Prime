@@ -598,14 +598,14 @@ $EndComp
 $Comp
 L INDUCTOR L3
 U 1 1 59E23182
-P 2250 10100
-F 0 "L3" H 2250 10200 50  0000 C CNN
-F 1 "FB" H 2250 10050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 2250 10100 50  0001 C CNN
-F 3 "" H 2250 10100 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/BLM18AG121SN1D/490-1011-1-ND/584459" H 2250 10100 60  0001 C CNN "Link"
-F 5 "BLM18AG121SN1D" H 2250 10100 60  0001 C CNN "MPN"
-	1    2250 10100
+P 2050 10100
+F 0 "L3" H 2050 10200 50  0000 C CNN
+F 1 "FB" H 2050 10050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 2050 10100 50  0001 C CNN
+F 3 "" H 2050 10100 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/BLM18AG121SN1D/490-1011-1-ND/584459" H 2050 10100 60  0001 C CNN "Link"
+F 5 "BLM18AG121SN1D" H 2050 10100 60  0001 C CNN "MPN"
+	1    2050 10100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -613,11 +613,12 @@ L C C22
 U 1 1 59E23A85
 P 2750 10475
 F 0 "C22" H 2775 10575 50  0000 L CNN
-F 1 "330U" H 2775 10375 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210" H 2788 10325 50  0001 C CNN
+F 1 "22U" H 2775 10375 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2788 10325 50  0001 C CNN
 F 3 "" H 2750 10475 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/avx-corporation/F950J337MBAAQ2/478-8408-1-ND/4006044" H 2750 10475 60  0001 C CNN "Link"
-F 5 "F950J337MBAAQ2" H 2750 10475 60  0001 C CNN "MPN"
+F 4 "CL21A226MOCLRNC" H 2750 10475 60  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A226MOCLRNC/1276-6780-1-ND/5961639" H 2750 10475 60  0001 C CNN "Link"
+F 6 "Y" H 2750 10475 60  0001 C CNN "Populated"
 	1    2750 10475
 	1    0    0    -1  
 $EndComp
@@ -1541,7 +1542,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 10325 2750 10100
 Wire Wire Line
-	2500 10100 4475 10100
+	2300 10100 4475 10100
 Wire Wire Line
 	3650 10325 3650 10100
 Wire Wire Line
@@ -1551,7 +1552,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 10625 2750 10750
 Wire Wire Line
-	2750 10750 3950 10750
+	2500 10750 3950 10750
 Wire Wire Line
 	3250 10750 3250 11025
 Wire Wire Line
@@ -1565,7 +1566,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 10750 3950 10625
 Wire Wire Line
-	1625 10100 2000 10100
+	1625 10100 1800 10100
 Wire Notes Line
 	925  8975 925  11350
 Wire Notes Line
@@ -2225,9 +2226,9 @@ Text GLabel 15600 1500 0    60   Input ~ 0
 User_Vin_3.3
 Text GLabel 22550 4600 2    60   Input ~ 0
 User_Vin_3.3
-Text GLabel 6825 18725 0    60   Input ~ 0
+Text GLabel 6475 18975 0    60   Input ~ 0
 User_Vin_3.3
-Text GLabel 7075 19275 0    59   Input ~ 0
+Text GLabel 6475 19275 0    59   Input ~ 0
 UBLOX_1.8V_SUPPLY
 $Comp
 L CONN_01X17 J4
@@ -2410,4 +2411,52 @@ F 3 "" H 7975 4750 50  0001 C CNN
 	1    7975 4750
 	0    1    1    0   
 $EndComp
+$Comp
+L Q_NMOS_GSD Q?
+U 1 1 5A89439D
+P 5000 20375
+F 0 "Q?" V 5175 20550 50  0000 L CNN
+F 1 "Q_NMOS_GSD" V 5175 19750 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5200 20475 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 5000 20375 50  0001 C CNN
+F 4 "2N7002" H 5000 20375 60  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/2N7002/2N7002NCT-ND/244664" H 5000 20375 60  0001 C CNN "Link"
+	1    5000 20375
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A894467
+P 4650 20650
+F 0 "R?" V 4730 20650 50  0000 C CNN
+F 1 "R" V 4650 20650 50  0000 C CNN
+F 2 "" V 4580 20650 50  0001 C CNN
+F 3 "" H 4650 20650 50  0001 C CNN
+	1    4650 20650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 20500 4650 20375
+Wire Wire Line
+	4650 20375 4800 20375
+$Comp
+L C C?
+U 1 1 5A8A895C
+P 2500 10475
+F 0 "C?" H 2525 10575 50  0000 L CNN
+F 1 "22U" H 2525 10375 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2538 10325 50  0001 C CNN
+F 3 "" H 2500 10475 50  0001 C CNN
+F 4 "CL21A226MOCLRNC" H 2500 10475 60  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A226MOCLRNC/1276-6780-1-ND/5961639" H 2500 10475 60  0001 C CNN "Link"
+F 6 "Y" H 2500 10475 60  0001 C CNN "Populated"
+	1    2500 10475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 10325 2500 10100
+Connection ~ 2500 10100
+Wire Wire Line
+	2500 10625 2500 10750
+Connection ~ 2750 10750
 $EndSCHEMATC
