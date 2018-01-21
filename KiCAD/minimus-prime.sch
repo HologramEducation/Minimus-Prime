@@ -431,19 +431,6 @@ F 5 "RC0402JR-073KL" H 3680 14900 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R28
-U 1 1 59E1C72B
-P 3175 5175
-F 0 "R28" V 3225 5325 50  0000 C CNN
-F 1 "0" V 3175 5175 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 3105 5175 50  0001 C CNN
-F 3 "" H 3175 5175 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 3225 5425 50  0001 C CNN "Link"
-F 5 "RC0402JR-070RL" H 3225 5425 50  0001 C CNN "MPN"
-	1    3175 5175
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #GND07
 U 1 1 59DF1958
 P 1875 12050
@@ -845,45 +832,6 @@ SYS_TMS_SWDIO
 Text Label 13900 5900 0    60   ~ 0
 SYS_RESET
 $Comp
-L R R31
-U 1 1 5A693979
-P 18475 5650
-F 0 "R31" V 18525 5825 50  0000 C CNN
-F 1 "10K" V 18475 5650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 18405 5650 50  0001 C CNN
-F 3 "" H 18475 5650 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-0710KL/311-10KJRTR-ND/726418" H 18525 5925 50  0001 C CNN "Link"
-F 5 "RC0402JR-0710KL" H 18525 5925 50  0001 C CNN "MPN"
-	1    18475 5650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R32
-U 1 1 5A699B27
-P 18475 5750
-F 0 "R32" V 18525 5925 50  0000 C CNN
-F 1 "10K" V 18475 5750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 18405 5750 50  0001 C CNN
-F 3 "" H 18475 5750 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-0710KL/311-10KJRTR-ND/726418" H 18525 6025 50  0001 C CNN "Link"
-F 5 "RC0402JR-0710KL" H 18525 6025 50  0001 C CNN "MPN"
-	1    18475 5750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R33
-U 1 1 5A699C8A
-P 18475 6000
-F 0 "R33" V 18525 6175 50  0000 C CNN
-F 1 "10K" V 18475 6000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 18405 6000 50  0001 C CNN
-F 3 "" H 18475 6000 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-0710KL/311-10KJRTR-ND/726418" H 18525 6275 50  0001 C CNN "Link"
-F 5 "RC0402JR-0710KL" H 18525 6275 50  0001 C CNN "MPN"
-	1    18475 6000
-	0    -1   -1   0   
-$EndComp
-$Comp
 L R R10
 U 1 1 5A6A03C7
 P 15975 10625
@@ -976,7 +924,7 @@ F 2 "Resistors_SMD:R_0402" V 19255 4850 50  0001 C CNN
 F 3 "" H 19325 4850 50  0001 C CNN
 F 4 "RC0402JR-070RL" H 19375 5100 50  0001 C CNN "MPN"
 F 5 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 19375 5100 50  0001 C CNN "Link"
-F 6 "N" H 19325 4850 60  0000 C CNN "Populated"
+F 6 "y" H 19325 4850 60  0001 C CNN "Populated"
 	1    19325 4850
 	0    1    1    0   
 $EndComp
@@ -1054,29 +1002,15 @@ Text GLabel 8475 14500 0    60   Input ~ 0
 Module_Vin_4.2_to_3.3
 Text GLabel 12975 2550 0    60   Input ~ 0
 User_Vin_3.3
-Text GLabel 18925 5650 2    60   Input ~ 0
-User_Vin_3.3
 Text GLabel 11275 10125 2    60   Input ~ 0
 User_Vin_3.3
 Text GLabel 8200 10125 0    59   Input ~ 0
 UBLOX_1.8V_SUPPLY
-$Comp
-L CONN_01X17 J4
-U 1 1 5A7D262F
-P 15300 14675
-F 0 "J4" H 15300 15575 50  0000 C CNN
-F 1 "CONN_01X17" V 15400 14675 50  0000 C CNN
-F 2 "minimus-prime:Minimus-Prime-Edge" H 15300 14675 50  0001 C CNN
-F 3 "" H 15300 14675 50  0001 C CNN
-F 4 "Y" H 15300 14675 60  0001 C CNN "Populated"
-	1    15300 14675
-	1    0    0    -1  
-$EndComp
 Text Label 13850 14875 0    59   ~ 0
 GND
-Text Label 13850 15375 0    59   ~ 0
+Text Label 13850 15950 0    59   ~ 0
 GND
-Text Label 13850 15475 0    59   ~ 0
+Text Label 13850 16050 0    59   ~ 0
 GND
 Text Label 3375 15425 2    59   ~ 0
 GPIO2
@@ -1088,16 +1022,8 @@ Text Label 13850 14575 0    59   ~ 0
 USER_TX
 Text Label 13850 14675 0    59   ~ 0
 USER_RX
-Text Label 13850 14075 0    59   ~ 0
-STATUS1
-Text Label 13850 14175 0    59   ~ 0
-STATUS2
 Text Label 13750 3000 0    59   ~ 0
 USER_RX
-Text Label 19475 4650 0    59   ~ 0
-STATUS1
-Text Label 19475 4850 0    59   ~ 0
-STATUS2
 Text Label 15825 10625 2    59   ~ 0
 MOD_EN
 Text GLabel 19325 3325 2    60   Input ~ 0
@@ -1190,6 +1116,80 @@ F 1 "GND" H 15175 10775 45  0000 L BNN
 F 2 "" H 15275 10875 60  0001 C CNN
 F 3 "" H 15275 10875 60  0001 C CNN
 	1    15275 10875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GSD Q5
+U 1 1 5A906B09
+P 9625 10625
+F 0 "Q5" V 9800 10800 50  0000 L CNN
+F 1 "CMUDM7004" V 9800 10000 50  0000 L CNN
+F 2 "minimus-prime:SOT-523" H 9825 10725 50  0001 C CNN
+F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=CMUDM7004.PDF" H 9625 10625 50  0001 C CNN
+F 4 "CMUDM7004" H 9625 10625 60  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/central-semiconductor-corp/CMUDM7004-TR/CMUDM7004-CT-ND/5324586" H 9625 10625 60  0001 C CNN "Link"
+F 6 "Y" H 9625 10625 60  0001 C CNN "Populated"
+	1    9625 10625
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NMOS_GSD Q6
+U 1 1 5A906FB2
+P 9650 11575
+F 0 "Q6" V 9825 11750 50  0000 L CNN
+F 1 "CMUDM7004" V 9825 10950 50  0000 L CNN
+F 2 "minimus-prime:SOT-523" H 9850 11675 50  0001 C CNN
+F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=CMUDM7004.PDF" H 9650 11575 50  0001 C CNN
+F 4 "CMUDM7004" H 9650 11575 60  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/central-semiconductor-corp/CMUDM7004-TR/CMUDM7004-CT-ND/5324586" H 9650 11575 60  0001 C CNN "Link"
+F 6 "Y" H 9650 11575 60  0001 C CNN "Populated"
+	1    9650 11575
+	0    1    1    0   
+$EndComp
+Text Label 13750 3100 0    59   ~ 0
+USER_TX
+Text Label 10175 10725 0    60   ~ 0
+SHIFTED_UBLOX_TX
+Text Label 10200 11675 0    60   ~ 0
+SHIFTED_UBLOX_RX
+Text GLabel 2550 5175 0    60   Input ~ 0
+Module_Vin_4.2_to_3.3
+$Comp
+L C C9
+U 1 1 5A92D5CD
+P 17900 10725
+F 0 "C9" H 17925 10825 50  0000 L CNN
+F 1 "100n" H 17925 10625 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 17938 10575 50  0001 C CNN
+F 3 "" H 17900 10725 50  0001 C CNN
+F 4 "GRM155R71C104KA88J" H 17925 10925 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88J/490-6328-1-ND/3845525" H 17925 10925 50  0001 C CNN "Link"
+F 6 "Y" H 17900 10725 60  0001 C CNN "Populated"
+	1    17900 10725
+	1    0    0    -1  
+$EndComp
+Text Notes 6850 11875 0    60   ~ 0
+Simplified for lower part count
+Text GLabel 13725 14775 0    60   Input ~ 0
+Module_Vin_4.2_to_3.3
+Text Notes 13550 13525 0    118  ~ 0
+Edge Connector
+Text Notes 15775 9450 0    118  ~ 0
+Microcontroller Power
+Text Label 18775 4750 2    60   ~ 0
+UBLOX_RESET_N
+Text Notes 15500 1375 0    118  ~ 0
+Microcontroller
+$Comp
+L CONN_01X23 J?
+U 1 1 5A982EB3
+P 15300 14975
+F 0 "J?" H 15300 16175 50  0000 C CNN
+F 1 "CONN_01X23" V 15400 14975 50  0000 C CNN
+F 2 "minimus-prime:Minimus-Prime-Edge-Extended" H 15300 14975 50  0001 C CNN
+F 3 "" H 15300 14975 50  0001 C CNN
+F 4 "Y" H 15300 14975 60  0001 C CNN "Populated"
+	1    15300 14975
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1722,25 +1722,9 @@ Wire Wire Line
 Wire Wire Line
 	14900 5900 13900 5900
 Wire Wire Line
-	17700 6000 18325 6000
+	17700 6400 18800 6400
 Wire Wire Line
-	17700 5750 18325 5750
-Wire Wire Line
-	18325 5650 17700 5650
-Wire Wire Line
-	18625 5650 18925 5650
-Wire Wire Line
-	18625 5750 18775 5750
-Wire Wire Line
-	18775 5650 18775 6000
-Connection ~ 18775 5650
-Wire Wire Line
-	18775 6000 18625 6000
-Connection ~ 18775 5750
-Wire Wire Line
-	17750 6400 17700 6400
-Wire Wire Line
-	19475 4850 19475 4850
+	19475 4850 19650 4850
 Wire Wire Line
 	17700 5200 18775 5200
 Wire Wire Line
@@ -1803,9 +1787,9 @@ Wire Wire Line
 Wire Wire Line
 	15100 13975 13850 13975
 Wire Wire Line
-	15100 15375 13850 15375
+	15100 15950 13850 15950
 Wire Wire Line
-	15100 15475 13850 15475
+	15100 16050 13850 16050
 Wire Wire Line
 	2600 15400 2800 15400
 Wire Wire Line
@@ -1832,56 +1816,6 @@ Wire Wire Line
 Connection ~ 15275 10275
 Wire Wire Line
 	15275 10650 15275 10875
-$Comp
-L Q_NMOS_GSD Q5
-U 1 1 5A906B09
-P 9625 10625
-F 0 "Q5" V 9800 10800 50  0000 L CNN
-F 1 "CMUDM7004" V 9800 10000 50  0000 L CNN
-F 2 "minimus-prime:SOT-523" H 9825 10725 50  0001 C CNN
-F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=CMUDM7004.PDF" H 9625 10625 50  0001 C CNN
-F 4 "CMUDM7004" H 9625 10625 60  0001 C CNN "MPN"
-F 5 "https://www.digikey.com/product-detail/en/central-semiconductor-corp/CMUDM7004-TR/CMUDM7004-CT-ND/5324586" H 9625 10625 60  0001 C CNN "Link"
-F 6 "Y" H 9625 10625 60  0001 C CNN "Populated"
-	1    9625 10625
-	0    1    1    0   
-$EndComp
-$Comp
-L Q_NMOS_GSD Q6
-U 1 1 5A906FB2
-P 9650 11575
-F 0 "Q6" V 9825 11750 50  0000 L CNN
-F 1 "CMUDM7004" V 9825 10950 50  0000 L CNN
-F 2 "minimus-prime:SOT-523" H 9850 11675 50  0001 C CNN
-F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=CMUDM7004.PDF" H 9650 11575 50  0001 C CNN
-F 4 "CMUDM7004" H 9650 11575 60  0001 C CNN "MPN"
-F 5 "https://www.digikey.com/product-detail/en/central-semiconductor-corp/CMUDM7004-TR/CMUDM7004-CT-ND/5324586" H 9650 11575 60  0001 C CNN "Link"
-F 6 "Y" H 9650 11575 60  0001 C CNN "Populated"
-	1    9650 11575
-	0    1    1    0   
-$EndComp
-Text Label 13750 3100 0    59   ~ 0
-USER_TX
-Text Label 10175 10725 0    60   ~ 0
-SHIFTED_UBLOX_TX
-Text Label 10200 11675 0    60   ~ 0
-SHIFTED_UBLOX_RX
-Text GLabel 2550 5175 0    60   Input ~ 0
-Module_Vin_4.2_to_3.3
-$Comp
-L C C9
-U 1 1 5A92D5CD
-P 17900 10725
-F 0 "C9" H 17925 10825 50  0000 L CNN
-F 1 "100n" H 17925 10625 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 17938 10575 50  0001 C CNN
-F 3 "" H 17900 10725 50  0001 C CNN
-F 4 "GRM155R71C104KA88J" H 17925 10925 50  0001 C CNN "MPN"
-F 5 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88J/490-6328-1-ND/3845525" H 17925 10925 50  0001 C CNN "Link"
-F 6 "Y" H 17900 10725 60  0001 C CNN "Populated"
-	1    17900 10725
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8200 10125 9300 10125
 Wire Wire Line
@@ -1896,12 +1830,8 @@ Wire Wire Line
 Wire Wire Line
 	11150 11150 11150 10125
 Connection ~ 11150 10125
-Text Notes 6850 11875 0    60   ~ 0
-Simplified for lower part count
 Wire Wire Line
 	19175 4850 17700 4850
-Text GLabel 13725 14775 0    60   Input ~ 0
-Module_Vin_4.2_to_3.3
 Connection ~ 2800 14500
 Wire Notes Line
 	1275 13775 1275 15775
@@ -1939,10 +1869,6 @@ Wire Notes Line
 	1275 8600 1275 850 
 Wire Notes Line
 	1275 850  1550 850 
-Text Notes 13550 13525 0    118  ~ 0
-Edge Connector
-Text Notes 15775 9450 0    118  ~ 0
-Microcontroller Power
 Wire Notes Line
 	12950 9050 12950 12950
 Wire Notes Line
@@ -1954,17 +1880,11 @@ Wire Notes Line
 Wire Notes Line
 	12425 13250 12425 15825
 Wire Notes Line
-	12425 15825 15925 15825
-Wire Notes Line
 	15925 15825 15925 13250
 Wire Notes Line
 	15925 13250 12425 13250
 Wire Wire Line
 	17700 4750 18775 4750
-Text Label 18775 4750 2    60   ~ 0
-UBLOX_RESET_N
-Text Notes 15500 1375 0    118  ~ 0
-Microcontroller
 Wire Notes Line
 	11175 900  20300 900 
 Wire Notes Line
@@ -1973,4 +1893,80 @@ Wire Notes Line
 	20300 8575 11175 8575
 Wire Notes Line
 	11175 8575 11175 925 
+Wire Wire Line
+	17700 5650 18775 5650
+Wire Wire Line
+	17700 5750 18775 5750
+Wire Wire Line
+	17700 6000 18775 6000
+Wire Wire Line
+	17700 5300 18775 5300
+Text Label 2125 5375 2    60   ~ 0
+CARD_EDGE_STATUS_USB_D_P
+Wire Wire Line
+	2250 5375 2125 5375
+Wire Wire Line
+	2250 5475 2125 5475
+Text Label 2125 5475 2    60   ~ 0
+CARD_EDGE_STATUS_USB_D_N
+Text Label 13850 14075 0    60   ~ 0
+CARD_EDGE_STATUS_USB_D_P
+Text Label 13025 13675 0    59   ~ 0
+STATUS1
+Text Label 13625 13675 0    59   ~ 0
+STATUS2
+Text Label 13850 14175 0    60   ~ 0
+CARD_EDGE_STATUS_USB_D_N
+Text Label 19625 4650 0    60   ~ 0
+CARD_EDGE_STATUS_USB_D_P
+Text Label 18775 4650 2    59   ~ 0
+STATUS1
+Text Label 18775 4850 2    59   ~ 0
+STATUS2
+Wire Wire Line
+	19625 4650 19475 4650
+Text Label 19650 4850 0    60   ~ 0
+CARD_EDGE_STATUS_USB_D_N
+$Comp
+L R R?
+U 1 1 5A9A15E9
+P 2400 5375
+F 0 "R?" V 2450 5525 50  0000 C CNN
+F 1 "0" V 2400 5375 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 2330 5375 50  0001 C CNN
+F 3 "" H 2400 5375 50  0001 C CNN
+F 4 "RC0402JR-070RL" H 2450 5625 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 2450 5625 50  0001 C CNN "Link"
+F 6 "N" H 2400 5375 60  0000 C CNN "Populated"
+	1    2400 5375
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A9A2223
+P 2400 5475
+F 0 "R?" V 2450 5625 50  0000 C CNN
+F 1 "0" V 2400 5475 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 2330 5475 50  0001 C CNN
+F 3 "" H 2400 5475 50  0001 C CNN
+F 4 "RC0402JR-070RL" H 2450 5725 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 2450 5725 50  0001 C CNN "Link"
+F 6 "N" H 2400 5475 60  0000 C CNN "Populated"
+	1    2400 5475
+	0    1    1    0   
+$EndComp
+$Comp
+L R R28
+U 1 1 5A9A313B
+P 3175 5175
+F 0 "R28" V 3225 5325 50  0000 C CNN
+F 1 "0" V 3175 5175 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 3105 5175 50  0001 C CNN
+F 3 "" H 3175 5175 50  0001 C CNN
+F 4 "RC0402JR-070RL" H 3225 5425 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 3225 5425 50  0001 C CNN "Link"
+F 6 "N" H 3175 5175 60  0000 C CNN "Populated"
+	1    3175 5175
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
