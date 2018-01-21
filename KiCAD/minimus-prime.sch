@@ -1156,8 +1156,6 @@ Text Notes 13550 13525 0    118  ~ 0
 Edge Connector
 Text Notes 15775 9450 0    118  ~ 0
 Microcontroller Power
-Text Label 18775 4750 2    60   ~ 0
-UBLOX_RESET_N
 Text Notes 15500 1375 0    118  ~ 0
 Microcontroller
 $Comp
@@ -1434,8 +1432,6 @@ Wire Wire Line
 	5625 4675 5975 4675
 Wire Wire Line
 	5625 4775 5975 4775
-Wire Wire Line
-	3025 5175 2550 5175
 Wire Wire Line
 	1350 10700 4700 10700
 Wire Wire Line
@@ -2015,10 +2011,66 @@ Text GLabel 12975 2550 0    60   Input ~ 0
 REGULATED_3V3
 Text GLabel 19325 3325 2    60   Input ~ 0
 REGULATED_3V3
-Text GLabel 2550 5175 0    60   Input ~ 0
-MODULE_VIN_4V2_to_3V3
 Text GLabel 8200 10125 0    59   Input ~ 0
 UBLOX_1V8_OUTPUT
 Text GLabel 2400 14500 0    59   Input ~ 0
 UBLOX_1V8_OUTPUT
+$Comp
+L Q_NMOS_GSD Q1
+U 1 1 5A652892
+P 12750 7625
+F 0 "Q1" V 12925 7800 50  0000 L CNN
+F 1 "CMUDM7004" V 12925 7000 50  0000 L CNN
+F 2 "minimus-prime:SOT-523" H 12950 7725 50  0001 C CNN
+F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=CMUDM7004.PDF" H 12750 7625 50  0001 C CNN
+F 4 "CMUDM7004" H 12750 7625 60  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/central-semiconductor-corp/CMUDM7004-TR/CMUDM7004-CT-ND/5324586" H 12750 7625 60  0001 C CNN "Link"
+F 6 "Y" H 12750 7625 60  0001 C CNN "Populated"
+	1    12750 7625
+	1    0    0    -1  
+$EndComp
+Text Label 13200 7225 0    60   ~ 0
+UBLOX_RESET_N
+Wire Wire Line
+	12850 7075 12850 7425
+Wire Wire Line
+	13200 7225 12850 7225
+Connection ~ 12850 7225
+$Comp
+L R R3
+U 1 1 5A65912F
+P 12850 6925
+F 0 "R3" V 12930 6925 50  0000 C CNN
+F 1 "100K" V 12850 6925 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 12780 6925 50  0001 C CNN
+F 3 "" H 12850 6925 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473" H 12930 7025 50  0001 C CNN "Link"
+F 5 "RC0402FR-07100KL" H 12930 7025 50  0001 C CNN "MPN"
+	1    12850 6925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12850 6775 12850 6550
+Text Label 12475 7625 2    60   ~ 0
+UBLOX_RESET_N_OPENDRAIN
+Wire Wire Line
+	12475 7625 12550 7625
+Wire Wire Line
+	12850 7825 12850 8075
+$Comp
+L GND #GND015
+U 1 1 5A65F2FA
+P 12850 8075
+F 0 "#GND015" H 12850 8075 45  0001 L BNN
+F 1 "GND" H 12750 7975 45  0000 L BNN
+F 2 "" H 12850 8075 60  0001 C CNN
+F 3 "" H 12850 8075 60  0001 C CNN
+	1    12850 8075
+	1    0    0    -1  
+$EndComp
+Text GLabel 12850 6550 2    59   Input ~ 0
+UBLOX_1V8_OUTPUT
+Text Label 18775 4750 2    60   ~ 0
+UBLOX_RESET_N_OPENDRAIN
+NoConn ~ 3025 5175
 $EndSCHEMATC
