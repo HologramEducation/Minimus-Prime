@@ -1,5 +1,7 @@
 # Minimus-Prime
 
+<img src="https://github.com/ChrisGammell/Minimus-Prime/blob/master/docs/PrimeScreenshotFront.JPG">
+
 ## Background
 
 This is a clone of the Beaglephone-Pocket, which was originally based on the [Hologram Nova](https://github.com/hologram-io/nova-hardware). This design is meant to work with castellated edges and soldered down to a board. 
