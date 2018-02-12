@@ -4,7 +4,7 @@
 
 ## Background
 
-This is a clone of the Beaglephone-Pocket, which was originally based on the [Hologram Nova](https://github.com/hologram-io/nova-hardware). This design is meant to work with castellated edges and soldered down to a board. 
+This is an experiment to shrink the logic and support circuitry around a cellular modem to the bare minimum and offer them as a surface mount solderable board. This design will be tested as a lightweight hardware device to connect to Hologram services.
 
 ### License
 
