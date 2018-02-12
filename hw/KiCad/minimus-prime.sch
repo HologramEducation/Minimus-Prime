@@ -1,18 +1,15 @@
 EESchema Schematic File Version 2
+LIBS:minimus-prime-rescue
 LIBS:74xgxx
 LIBS:74xx
 LIBS:ac-dc
 LIBS:actel
 LIBS:adc-dac
-LIBS:allegro
 LIBS:Altera
 LIBS:analog_devices
 LIBS:analog_switches
 LIBS:atmel
 LIBS:audio
-LIBS:battery_management
-LIBS:bbd
-LIBS:bosch
 LIBS:brooktre
 LIBS:cmos_ieee
 LIBS:cmos4000
@@ -34,28 +31,22 @@ LIBS:intel
 LIBS:interface
 LIBS:ir
 LIBS:Lattice
-LIBS:leds
 LIBS:linear
 LIBS:maxim
-LIBS:mechanical
 LIBS:memory
 LIBS:microchip_dspic33dsc
 LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
 LIBS:microchip_pic32mcu
 LIBS:microchip
 LIBS:microcontrollers
-LIBS:modules
 LIBS:motor_drivers
 LIBS:motorola
-LIBS:motors
 LIBS:msp430
 LIBS:nordicsemi
 LIBS:nxp_armmcu
-LIBS:nxp
 LIBS:onsemi
 LIBS:opto
 LIBS:Oscillators
@@ -78,15 +69,12 @@ LIBS:switches
 LIBS:texas
 LIBS:transf
 LIBS:transistors
-LIBS:triac_thyristor
 LIBS:ttl_ieee
 LIBS:valves
 LIBS:video
-LIBS:wiznet
 LIBS:Worldsemi
 LIBS:Xicor
 LIBS:xilinx
-LIBS:zetex
 LIBS:Zilog
 LIBS:minimus-prime
 LIBS:minimus-prime-cache
@@ -97,7 +85,7 @@ encoding utf-8
 Sheet 1 1
 Title "BeaglePhone Pocket"
 Date "2017-09-28"
-Rev ""
+Rev "1.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -128,7 +116,7 @@ F 2 "beaglephone-pocket:SIM8050-6-0-14-01-A" H 5400 10650 60 0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2342939.pdf" H 5400 10650 60 0001 C CNN
 F 4 "http://www.newark.com/global-connector-technology/sim8050-6-0-14-01-a/connector-nano-sim-card-6-position/dp/94W2768" H 5300 10750 60 0001 C CNN "Link"
 F 5 "SIM8050-6-0-14-01-A" H 5300 10750 60 0001 C CNN "MPN"
-F 6 "Y" H 4975 10200 50 0001 C CNN "Populated"
+F 6 "N" H 4975 10200 50 0001 C CNN "Populated"
 	1    5300 10750
 	1    0    0    -1  
 $EndComp
@@ -153,7 +141,7 @@ F 2 "Resistors_SMD:R_0402" H 3325 11100 50 0001 C CNN
 F 3 "" H 3325 11100 50 0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/littelfuse-inc/PESD0402-140/PESD0402-140CT-ND/1968526" H 3325 11300 50 0001 C CNN "Link"
 F 5 "PESD0402-140" H 3325 11100 60 0001 C CNN "MPN"
-F 6 "Y" H 3325 11300 50 0001 C CNN "Populated"
+F 6 "N" H 3325 11300 50 0001 C CNN "Populated"
 	1    3325 11100
 	0    1    1    0   
 $EndComp
@@ -236,11 +224,11 @@ L C C15
 U 1 1 59DE6C76
 P 1975 4025
 F 0 "C15" H 2000 4125 50 0000 L CNN
-F 1 "NOPE" H 2000 3925 50 0000 L CNN
+F 1 "47p" H 2000 3925 50 0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 2013 3875 50 0001 C CNN
 F 3 "" H 1975 4025 50 0001 C CNN
-F 4 "NULL" H 2000 4225 50 0001 C CNN "Link"
-F 5 "NULL" H 2000 4225 50 0001 C CNN "MPN"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H470JA01D/490-5942-1-ND/3721299" H 2000 4225 50 0001 C CNN "Link"
+F 5 "GRM1555C1H470JA01" H 2000 4225 50 0001 C CNN "MPN"
 F 6 "N" H 1975 4025 60 0001 C CNN "Populated"
 	1    1975 4025
 	1    0    0    -1  
@@ -266,7 +254,7 @@ F 2 "Resistors_SMD:R_0402" V 2630 4475 50 0001 C CNN
 F 3 "" H 2700 4475 50 0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 2750 4725 50 0001 C CNN "Link"
 F 5 "RC0402JR-070RL" H 2750 4725 50 0001 C CNN "MPN"
-F 6 "Y" H 2750 4725 50 0001 C CNN "Populated"
+F 6 "N" H 2750 4725 50 0001 C CNN "Populated"
 	1    2700 4475
 	0    1    1    0   
 $EndComp
@@ -291,7 +279,7 @@ F 2 "Capacitors_SMD:C_0402" H 2613 10950 50 0001 C CNN
 F 3 "" H 2575 11100 50 0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H470JA01D/490-5942-1-ND/3721299" H 2600 11300 50 0001 C CNN "Link"
 F 5 "GRM1555C1H470JA01" H 2575 11100 60 0001 C CNN "MPN"
-F 6 "Y" H 2600 11300 50 0001 C CNN "Populated"
+F 6 "N" H 2600 11300 50 0001 C CNN "Populated"
 	1    2575 11100
 	1    0    0    1   
 $EndComp
@@ -305,7 +293,7 @@ F 2 "Capacitors_SMD:C_0402" H 2813 10950 50 0001 C CNN
 F 3 "" H 2775 11100 50 0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H470JA01D/490-5942-1-ND/3721299" H 2800 11300 50 0001 C CNN "Link"
 F 5 "GRM1555C1H470JA01" H 2775 11100 60 0001 C CNN "MPN"
-F 6 "Y" H 2800 11300 50 0001 C CNN "Populated"
+F 6 "N" H 2800 11300 50 0001 C CNN "Populated"
 	1    2775 11100
 	1    0    0    1   
 $EndComp
@@ -319,7 +307,7 @@ F 2 "Capacitors_SMD:C_0402" H 3013 10950 50 0001 C CNN
 F 3 "" H 2975 11100 50 0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H470JA01D/490-5942-1-ND/3721299" H 3000 11300 50 0001 C CNN "Link"
 F 5 "GRM1555C1H470JA01" H 2975 11100 60 0001 C CNN "MPN"
-F 6 "Y" H 3000 11300 50 0001 C CNN "Populated"
+F 6 "N" H 3000 11300 50 0001 C CNN "Populated"
 	1    2975 11100
 	1    0    0    1   
 $EndComp
@@ -333,7 +321,7 @@ F 2 "Resistors_SMD:R_0402" H 3625 11100 50 0001 C CNN
 F 3 "" H 3625 11100 50 0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/littelfuse-inc/PESD0402-140/PESD0402-140CT-ND/1968526" H 3625 11300 50 0001 C CNN "Link"
 F 5 "PESD0402-140" H 3625 11100 60 0001 C CNN "MPN"
-F 6 "Y" H 3625 11300 50 0001 C CNN "Populated"
+F 6 "N" H 3625 11300 50 0001 C CNN "Populated"
 	1    3625 11100
 	0    1    1    0   
 $EndComp
@@ -347,7 +335,7 @@ F 2 "Resistors_SMD:R_0402" H 3925 11100 50 0001 C CNN
 F 3 "" H 3925 11100 50 0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/littelfuse-inc/PESD0402-140/PESD0402-140CT-ND/1968526" H 3925 11300 50 0001 C CNN "Link"
 F 5 "PESD0402-140" H 3925 11100 60 0001 C CNN "MPN"
-F 6 "Y" H 3925 11300 50 0001 C CNN "Populated"
+F 6 "N" H 3925 11300 50 0001 C CNN "Populated"
 	1    3925 11100
 	0    1    1    0   
 $EndComp
@@ -361,7 +349,7 @@ F 2 "Resistors_SMD:R_0402" H 4200 11100 50 0001 C CNN
 F 3 "" H 4200 11100 50 0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/littelfuse-inc/PESD0402-140/PESD0402-140CT-ND/1968526" H 4200 11300 50 0001 C CNN "Link"
 F 5 "PESD0402-140" H 4200 11100 60 0001 C CNN "MPN"
-F 6 "Y" H 4200 11300 50 0001 C CNN "Populated"
+F 6 "N" H 4200 11300 50 0001 C CNN "Populated"
 	1    4200 11100
 	0    1    1    0   
 $EndComp
@@ -370,11 +358,11 @@ L C C16
 U 1 1 59DF4B51
 P 2175 11100
 F 0 "C16" H 2200 11200 50 0000 L CNN
-F 1 "0.1U" H 2200 11000 50 0000 L CNN
+F 1 "100n" H 2200 11000 50 0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 2213 10950 50 0001 C CNN
 F 3 "" H 2175 11100 50 0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL05B104KO5NNNC/1276-1001-1-ND/3889087" H 2200 11300 50 0001 C CNN "Link"
-F 5 "CL05B104KO5NNNC" H 2175 11100 60 0001 C CNN "MPN"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88J/490-6328-1-ND/3845525" H 2200 11300 50 0001 C CNN "Link"
+F 5 "GRM155R71C104KA88J" H 2175 11100 60 0001 C CNN "MPN"
 F 6 "Y" H 2200 11300 50 0001 C CNN "Populated"
 	1    2175 11100
 	1    0    0    1   
@@ -389,12 +377,12 @@ F 2 "Capacitors_SMD:C_0402" H 2413 10950 50 0001 C CNN
 F 3 "" H 2375 11100 50 0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H470JA01D/490-5942-1-ND/3721299" H 2400 11300 50 0001 C CNN "Link"
 F 5 "GRM1555C1H470JA01" H 2375 11100 60 0001 C CNN "MPN"
-F 6 "Y" H 2400 11300 50 0001 C CNN "Populated"
+F 6 "N" H 2400 11300 50 0001 C CNN "Populated"
 	1    2375 11100
 	1    0    0    1   
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-minimus-prime D1
 U 1 1 59E13696
 P 2800 15200
 F 0 "D1" H 2800 15300 50 0000 C CNN
@@ -422,7 +410,7 @@ F 6 "Y" H 2880 14900 50 0001 C CNN "Populated"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D9
+L LED-RESCUE-minimus-prime D9
 U 1 1 59E18468
 P 3600 15200
 F 0 "D9" H 3600 15300 50 0000 C CNN
@@ -475,98 +463,98 @@ F 6 "Y" H 6475 1700 50 0001 C CNN "Populated"
 	1    0    0    -1  
 $EndComp
 $Comp
-L INDUCTOR L3
+L INDUCTOR-RESCUE-minimus-prime L3
 U 1 1 59E23182
-P 8900 14500
-F 0 "L3" H 8900 14600 50 0000 C CNN
-F 1 "FB" H 8900 14450 50 0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 8900 14500 50 0001 C CNN
-F 3 "" H 8900 14500 50 0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/BLM18AG121SN1D/490-1011-1-ND/584459" H 8900 14500 60 0001 C CNN "Link"
-F 5 "BLM18AG121SN1D" H 8900 14500 60 0001 C CNN "MPN"
-F 6 "Y" H 8900 14700 50 0001 C CNN "Populated"
-	1    8900 14500
+P 7175 14675
+F 0 "L3" H 7175 14775 50 0000 C CNN
+F 1 "FB" H 7175 14625 50 0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 7175 14675 50 0001 C CNN
+F 3 "" H 7175 14675 50 0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/BLM18AG121SN1D/490-1011-1-ND/584459" H 7175 14675 60 0001 C CNN "Link"
+F 5 "BLM18AG121SN1D" H 7175 14675 60 0001 C CNN "MPN"
+F 6 "Y" H 7175 14875 50 0001 C CNN "Populated"
+	1    7175 14675
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C22
 U 1 1 59E23A85
-P 9600 14875
-F 0 "C22" H 9625 14975 50 0000 L CNN
-F 1 "22U" H 9625 14775 50 0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 9638 14725 50 0001 C CNN
-F 3 "" H 9600 14875 50 0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A226MOCLRNC/1276-6780-1-ND/5961639" H 9600 14875 60 0001 C CNN "Link"
-F 5 "CL21A226MOCLRNC" H 9600 14875 60 0001 C CNN "MPN"
-F 6 "Y" H 9600 14875 60 0001 C CNN "Populated"
-	1    9600 14875
+P 7875 15050
+F 0 "C22" H 7900 15150 50 0000 L CNN
+F 1 "22U" H 7900 14950 50 0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7913 14900 50 0001 C CNN
+F 3 "" H 7875 15050 50 0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A226MOCLRNC/1276-6780-1-ND/5961639" H 7875 15050 60 0001 C CNN "Link"
+F 5 "CL21A226MOCLRNC" H 7875 15050 60 0001 C CNN "MPN"
+F 6 "Y" H 7875 15050 60 0001 C CNN "Populated"
+	1    7875 15050
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C23
 U 1 1 59E25107
-P 9950 14875
-F 0 "C23" H 9975 14975 50 0000 L CNN
-F 1 "10n" H 9975 14775 50 0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 9988 14725 50 0001 C CNN
-F 3 "" H 9950 14875 50 0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H100JA01D/490-5921-1-ND/3721278" H 9975 15075 50 0001 C CNN "Link"
-F 5 "GRM1555C1H100JA01D" H 9975 15075 50 0001 C CNN "MPN"
-F 6 "Y" H 9975 15075 50 0001 C CNN "Populated"
-	1    9950 14875
+P 8225 15050
+F 0 "C23" H 8250 15150 50 0000 L CNN
+F 1 "10n" H 8250 14950 50 0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8263 14900 50 0001 C CNN
+F 3 "" H 8225 15050 50 0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H100JA01D/490-5921-1-ND/3721278" H 8250 15250 50 0001 C CNN "Link"
+F 5 "GRM1555C1H100JA01D" H 8250 15250 50 0001 C CNN "MPN"
+F 6 "Y" H 8250 15250 50 0001 C CNN "Populated"
+	1    8225 15050
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C24
 U 1 1 59E255C5
-P 10225 14875
-F 0 "C24" H 10250 14975 50 0000 L CNN
-F 1 "100n" H 10250 14775 50 0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 10263 14725 50 0001 C CNN
-F 3 "" H 10225 14875 50 0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88J/490-6328-1-ND/3845525" H 10250 15075 50 0001 C CNN "Link"
-F 5 "GRM155R71C104KA88J" H 10250 15075 50 0001 C CNN "MPN"
-F 6 "Y" H 10250 15075 50 0001 C CNN "Populated"
-	1    10225 14875
+P 8500 15050
+F 0 "C24" H 8525 15150 50 0000 L CNN
+F 1 "100n" H 8525 14950 50 0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8538 14900 50 0001 C CNN
+F 3 "" H 8500 15050 50 0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88J/490-6328-1-ND/3845525" H 8525 15250 50 0001 C CNN "Link"
+F 5 "GRM155R71C104KA88J" H 8525 15250 50 0001 C CNN "MPN"
+F 6 "Y" H 8525 15250 50 0001 C CNN "Populated"
+	1    8500 15050
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C25
 U 1 1 59E25701
-P 10500 14875
-F 0 "C25" H 10525 14975 50 0000 L CNN
-F 1 "56p" H 10525 14775 50 0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 10538 14725 50 0001 C CNN
-F 3 "" H 10500 14875 50 0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H560JA01D/490-1288-1-ND/587890" H 10525 15075 50 0001 C CNN "Link"
-F 5 "GRM1555C1H560JA01D" H 10525 15075 50 0001 C CNN "MPN"
-F 6 "Y" H 10525 15075 50 0001 C CNN "Populated"
-	1    10500 14875
+P 8775 15050
+F 0 "C25" H 8800 15150 50 0000 L CNN
+F 1 "56p" H 8800 14950 50 0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8813 14900 50 0001 C CNN
+F 3 "" H 8775 15050 50 0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H560JA01D/490-1288-1-ND/587890" H 8800 15250 50 0001 C CNN "Link"
+F 5 "GRM1555C1H560JA01D" H 8800 15250 50 0001 C CNN "MPN"
+F 6 "Y" H 8800 15250 50 0001 C CNN "Populated"
+	1    8775 15050
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C26
 U 1 1 59E27326
-P 10800 14875
-F 0 "C26" H 10825 14975 50 0000 L CNN
-F 1 "15p" H 10825 14775 50 0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 10838 14725 50 0001 C CNN
-F 3 "" H 10800 14875 50 0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GJM1555C1H150JB01D/490-3117-1-ND/702383" H 10825 15075 50 0001 C CNN "Link"
-F 5 "GJM1555C1H150JB01D" H 10825 15075 50 0001 C CNN "MPN"
-F 6 "Y" H 10825 15075 50 0001 C CNN "Populated"
-	1    10800 14875
+P 9075 15050
+F 0 "C26" H 9100 15150 50 0000 L CNN
+F 1 "15p" H 9100 14950 50 0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 9113 14900 50 0001 C CNN
+F 3 "" H 9075 15050 50 0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GJM1555C1H150JB01D/490-3117-1-ND/702383" H 9100 15250 50 0001 C CNN "Link"
+F 5 "GJM1555C1H150JB01D" H 9100 15250 50 0001 C CNN "MPN"
+F 6 "Y" H 9100 15250 50 0001 C CNN "Populated"
+	1    9075 15050
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR08
 U 1 1 59E29FB5
-P 10100 15425
-F 0 "#PWR08" H 10100 15175 50 0001 C CNN
-F 1 "GND" H 10100 15275 50 0000 C CNN
-F 2 "" H 10100 15425 50 0001 C CNN
-F 3 "" H 10100 15425 50 0001 C CNN
-	1    10100 15425
+P 8375 15600
+F 0 "#PWR08" H 8375 15350 50 0001 C CNN
+F 1 "GND" H 8375 15450 50 0000 C CNN
+F 2 "" H 8375 15600 50 0001 C CNN
+F 3 "" H 8375 15600 50 0001 C CNN
+	1    8375 15600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -644,9 +632,12 @@ L C C2
 U 1 1 5A65640B
 P 13250 2750
 F 0 "C2" H 13275 2850 50 0000 L CNN
-F 1 "C" H 13275 2650 50 0000 L CNN
+F 1 "100n" H 13275 2650 50 0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 13288 2600 50 0001 C CNN
 F 3 "" H 13250 2750 50 0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88J/490-6328-1-ND/3845525" H 13275 2950 50 0001 C CNN "Link"
+F 5 "GRM155R71C104KA88J" H 13275 2950 50 0001 C CNN "MPN"
+F 6 "Y" H 13275 2950 50 0001 C CNN "Populated"
 	1    13250 2750
 	1    0    0    -1  
 $EndComp
@@ -655,9 +646,12 @@ L C C7
 U 1 1 5A656554
 P 13450 2750
 F 0 "C7" H 13475 2850 50 0000 L CNN
-F 1 "C" H 13475 2650 50 0000 L CNN
+F 1 "100n" H 13475 2650 50 0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 13488 2600 50 0001 C CNN
 F 3 "" H 13450 2750 50 0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88J/490-6328-1-ND/3845525" H 13475 2950 50 0001 C CNN "Link"
+F 5 "GRM155R71C104KA88J" H 13475 2950 50 0001 C CNN "MPN"
+F 6 "Y" H 13475 2950 50 0001 C CNN "Populated"
 	1    13450 2750
 	1    0    0    -1  
 $EndComp
@@ -676,7 +670,7 @@ F 6 "Y" H 14125 4175 60 0001 C CNN "Populated"
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D14
+L LED-RESCUE-minimus-prime D14
 U 1 1 5A65BE18
 P 18525 10475
 F 0 "D14" H 18525 10575 50 0000 C CNN
@@ -874,13 +868,14 @@ F 6 "Y" H 19350 4900 50 0001 C CNN "Populated"
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST TP1
+L TEST-RESCUE-minimus-prime TP1
 U 1 1 5A7543B3
 P 2825 3375
 F 0 "TP1" H 2825 3675 50 0000 C BNN
 F 1 "TEST" H 2825 3625 50 0000 C CNN
 F 2 "" H 2825 3375 50 0001 C CNN
 F 3 "" H 2825 3375 50 0001 C CNN
+F 4 "N" H 2825 3775 50 0001 C CNN "Populated"
 	1    2825 3375
 	1    0    0    -1  
 $EndComp
@@ -926,15 +921,15 @@ $EndComp
 $Comp
 L C C3
 U 1 1 5A8A895C
-P 9350 14875
-F 0 "C3" H 9375 14975 50 0000 L CNN
-F 1 "22U" H 9375 14775 50 0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 9388 14725 50 0001 C CNN
-F 3 "" H 9350 14875 50 0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A226MOCLRNC/1276-6780-1-ND/5961639" H 9350 14875 60 0001 C CNN "Link"
-F 5 "CL21A226MOCLRNC" H 9350 14875 60 0001 C CNN "MPN"
-F 6 "Y" H 9350 14875 60 0001 C CNN "Populated"
-	1    9350 14875
+P 7625 15050
+F 0 "C3" H 7650 15150 50 0000 L CNN
+F 1 "22U" H 7650 14950 50 0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7663 14900 50 0001 C CNN
+F 3 "" H 7625 15050 50 0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A226MOCLRNC/1276-6780-1-ND/5961639" H 7625 15050 60 0001 C CNN "Link"
+F 5 "CL21A226MOCLRNC" H 7625 15050 60 0001 C CNN "MPN"
+F 6 "Y" H 7625 15050 60 0001 C CNN "Populated"
+	1    7625 15050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1016,18 +1011,6 @@ F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/
 F 5 "GRM155R71C104KA88J" H 17925 10925 50 0001 C CNN "MPN"
 F 6 "Y" H 17900 10725 60 0001 C CNN "Populated"
 	1    17900 10725
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X23 J1
-U 1 1 5A982EB3
-P 15300 14975
-F 0 "J1" H 15300 16175 50 0000 C CNN
-F 1 "CONN_01X23" V 15400 14975 50 0000 C CNN
-F 2 "minimus-prime:Minimus-Prime-Edge-Extended" H 15300 14975 50 0001 C CNN
-F 3 "" H 15300 14975 50 0001 C CNN
-F 4 "Y" H 15300 14975 60 0001 C CNN "Populated"
-	1    15300 14975
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1128,16 +1111,39 @@ $EndComp
 $Comp
 L R R4
 U 1 1 5A673E4A
-P 13625 14975
-F 0 "R4" V 13675 15125 50 0000 C CNN
-F 1 "0" V 13625 14975 50 0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 13555 14975 50 0001 C CNN
-F 3 "" H 13625 14975 50 0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 13675 15225 50 0001 C CNN "Link"
-F 5 "RC0402JR-070RL" H 13675 15225 50 0001 C CNN "MPN"
-F 6 "Y" H 13675 15225 50 0001 C CNN "Populated"
-	1    13625 14975
+P 15425 15250
+F 0 "R4" V 15475 15400 50 0000 C CNN
+F 1 "0" V 15425 15250 50 0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 15355 15250 50 0001 C CNN
+F 3 "" H 15425 15250 50 0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 15475 15500 50 0001 C CNN "Link"
+F 5 "RC0402JR-070RL" H 15475 15500 50 0001 C CNN "MPN"
+F 6 "Y" H 15475 15500 50 0001 C CNN "Populated"
+	1    15425 15250
 	0    1    1    0   
+$EndComp
+$Comp
+L Minimus_Prime_Outline J1
+U 1 1 5A7954AF
+P 13950 14750
+F 0 "J1" H 14500 13300 60 0000 C CNN
+F 1 "Minimus_Prime_Outline" H 13900 16150 60 0000 C CNN
+F 2 "" H 13050 14450 60 0000 C CNN
+F 3 "" H 13050 14450 60 0000 C CNN
+F 4 "N" H 14500 13400 50 0001 C CNN "Populated"
+	1    13950 14750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A7C405E
+P 11675 15825
+F 0 "#PWR?" H 11675 15575 50 0001 C CNN
+F 1 "GND" H 11675 15675 50 0000 C CNN
+F 2 "" H 11675 15825 50 0001 C CNN
+F 3 "" H 11675 15825 50 0001 C CNN
+	1    11675 15825
+	1    0    0    -1  
 $EndComp
 Text Label 2900 3475 0    60   ~ 0
 UBLOX_PWR_ON
@@ -1201,9 +1207,9 @@ Text Label 4325 12350 0    60   ~ 0
 UBLOX_SIM_CLK
 Text Label 4325 12150 0    60   ~ 0
 UBLOX_SIM_RST
-Text Label 11000 14500 0    60   ~ 0
+Text Label 9275 14675 0    60   ~ 0
 UBLOX_VCC
-Text Notes 8425 13875 0    118  ~ 0
+Text Notes 6700 14050 0    118  ~ 0
 Power Conditioning/Filtering
 Text Label 9975 11150 2    59   ~ 0
 HV
@@ -1237,39 +1243,15 @@ Text Label 19075 4300 2    60   ~ 0
 PWM_R
 Text Label 19075 4550 2    60   ~ 0
 TXL_ON_N
-Text Label 13850 15375 0    60   ~ 0
-USR_TDO_SWO
-Text Label 13850 15275 0    60   ~ 0
-USR_TDI
-Text Label 13850 14275 0    60   ~ 0
-MOD_RESET
-Text Label 13850 15575 0    60   ~ 0
-USR_TMS_SWDIO
-Text Label 13850 15175 0    60   ~ 0
-USR_TCK_SWDCLK
 Text Notes 14575 11450 0    118  ~ 0
 High side power shutoff for level shift
-Text Label 13850 13875 0    59   ~ 0
-GND
-Text Label 13850 13975 0    59   ~ 0
-MOD_EN
 Text GLabel 5625 2525 2    59   Input ~ 0
 UBLOX_1V8_OUTPUT
-Text Label 13850 14875 0    59   ~ 0
-GND
-Text Label 13850 15975 0    59   ~ 0
-GND
-Text Label 13850 16075 0    59   ~ 0
-GND
 Text Label 3375 15425 2    59   ~ 0
 GPIO2
-Text Label 13850 14375 0    60   ~ 0
-BL_SCL
-Text Label 13850 14475 0    60   ~ 0
-BL_SDA
-Text Label 13850 14575 0    59   ~ 0
+Text Label 12300 13950 0    59   ~ 0
 USER_TX
-Text Label 13850 14675 0    59   ~ 0
+Text Label 12300 14050 0    59   ~ 0
 USER_RX
 Text Label 13750 3000 0    59   ~ 0
 USER_RX
@@ -1283,7 +1265,7 @@ Text Label 10200 11675 0    60   ~ 0
 SHIFTED_UBLOX_RX
 Text Notes 6850 11875 0    60   ~ 0
 Simplified for lower part count
-Text Notes 13550 13525 0    118  ~ 0
+Text Notes 11075 13375 0    118  ~ 0
 Edge Connector
 Text Notes 15775 9450 0    118  ~ 0
 Microcontroller Power
@@ -1292,10 +1274,6 @@ Microcontroller
 Text Label 2125 5375 2    60   ~ 0
 CARD_EDGE_STATUS_USB_D_P
 Text Label 2125 5475 2    60   ~ 0
-CARD_EDGE_STATUS_USB_D_N
-Text Label 13850 14075 0    60   ~ 0
-CARD_EDGE_STATUS_USB_D_P
-Text Label 13850 14175 0    60   ~ 0
 CARD_EDGE_STATUS_USB_D_N
 Text Label 19600 4650 0    60   ~ 0
 CARD_EDGE_STATUS_USB_D_P
@@ -1315,23 +1293,13 @@ Text Label 19075 6000 2    60   ~ 0
 SPARE4
 Text Label 19100 6400 2    60   ~ 0
 SPARE5
-Text Label 13850 15475 0    60   ~ 0
-SYS_TCK_SWDCLK
-Text Label 13850 15675 0    60   ~ 0
-SPARE3
-Text Label 13850 15775 0    60   ~ 0
-SYS_TMS_SWDIO
 Text GLabel 18900 10275 2    60   Input ~ 0
 REGULATED_3V3
 Text GLabel 15000 10275 0    60   Input ~ 0
 MODULE_VIN_4V2_to_3V3
 Text GLabel 11275 10125 2    60   Input ~ 0
 REGULATED_3V3
-Text GLabel 13725 14775 0    60   Input ~ 0
-MODULE_VIN_4V2_to_3V3
-Text GLabel 13750 15875 0    60   Input ~ 0
-MODULE_VIN_4V2_to_3V3
-Text GLabel 8475 14500 0    60   Input ~ 0
+Text GLabel 6750 14675 0    60   Input ~ 0
 MODULE_VIN_4V2_to_3V3
 Text GLabel 12975 2550 0    60   Input ~ 0
 REGULATED_3V3
@@ -1349,18 +1317,46 @@ Text GLabel 12850 6550 2    59   Input ~ 0
 UBLOX_1V8_OUTPUT
 Text Label 19075 5200 2    60   ~ 0
 UBLOX_RESET_N_OPENDRAIN
-Text Label 13850 15075 0    60   ~ 0
-EXP_CS
-Text GLabel 13325 14975 0    60   Input ~ 0
+Text GLabel 15675 15250 2    60   Input ~ 0
 REGULATED_3V3
-Text Label 13850 14975 0    60   ~ 0
-JTAG_3V3
 Text Label 13900 5900 0    60   ~ 0
 MOD_RESET
 Text Label 19075 4750 2    60   ~ 0
 PWM_G
 Text Label 19075 4850 2    60   ~ 0
 PWM_B
+Text GLabel 12800 15200 0    60   Input ~ 0
+MODULE_VIN_4V2_to_3V3
+Text Label 12300 13550 0    59   ~ 0
+MOD_EN
+Text Label 12300 13650 0    60   ~ 0
+MOD_RESET
+Text Label 12300 14500 0    60   ~ 0
+BL_SCL
+Text Label 12300 14600 0    60   ~ 0
+BL_SDA
+Text Label 15550 13700 2    60   ~ 0
+EXP_CS
+Text Label 15550 14000 2    60   ~ 0
+USR_TCK_SWDCLK
+Text Label 15550 13800 2    60   ~ 0
+USR_TDI
+Text Label 15550 13900 2    60   ~ 0
+USR_TDO_SWO
+Text Label 15550 14450 2    60   ~ 0
+SYS_TCK_SWDCLK
+Text Label 15550 14550 2    60   ~ 0
+USR_TMS_SWDIO
+Text Label 15550 14650 2    60   ~ 0
+SPARE3
+Text Label 15550 14750 2    60   ~ 0
+SYS_TMS_SWDIO
+Text Label 15275 15250 2    60   ~ 0
+JTAG_3V3
+Text Label 16450 15850 2    60   ~ 0
+CARD_EDGE_STATUS_USB_D_P
+Text Label 16450 15950 2    60   ~ 0
+CARD_EDGE_STATUS_USB_D_N
 Wire Wire Line
 	1350 10800 4700 10800
 Wire Wire Line
@@ -1648,41 +1644,41 @@ Wire Wire Line
 Wire Wire Line
 	6845 2120 6845 2075
 Wire Wire Line
-	9600 14500 9600 14725
+	7875 14675 7875 14900
 Wire Wire Line
-	9150 14500 11000 14500
+	7425 14675 9275 14675
 Wire Wire Line
-	10500 14725 10500 14500
+	8775 14900 8775 14675
 Wire Wire Line
-	10225 14725 10225 14500
+	8500 14900 8500 14675
 Wire Wire Line
-	9950 14725 9950 14500
+	8225 14900 8225 14675
 Wire Wire Line
-	9600 15025 9600 15150
+	7875 15200 7875 15325
 Wire Wire Line
-	9350 15150 10800 15150
+	7625 15325 9075 15325
 Wire Wire Line
-	10100 15150 10100 15425
+	8375 15325 8375 15600
 Wire Wire Line
-	10500 15150 10500 15025
+	8775 15325 8775 15200
 Wire Wire Line
-	10225 15025 10225 15150
+	8500 15200 8500 15325
 Wire Wire Line
-	9950 15025 9950 15150
+	8225 15200 8225 15325
 Wire Wire Line
-	10800 14725 10800 14500
+	9075 14900 9075 14675
 Wire Wire Line
-	10800 15150 10800 15025
+	9075 15325 9075 15200
 Wire Wire Line
-	8475 14500 8650 14500
+	6750 14675 6925 14675
 Wire Notes Line
-	7225 13375 7225 15750
+	5500 13550 5500 15925
 Wire Notes Line
-	7225 15750 11850 15750
+	5500 15925 10125 15925
 Wire Notes Line
-	11850 15750 11850 13375
+	10125 15925 10125 13550
 Wire Notes Line
-	11850 13375 7225 13375
+	10125 13550 5500 13550
 Wire Wire Line
 	9950 10625 9950 10725
 Wire Wire Line
@@ -1816,40 +1812,6 @@ Wire Wire Line
 Wire Wire Line
 	2825 3375 2825 3475
 Wire Wire Line
-	13850 13875 15100 13875
-Wire Wire Line
-	15100 15275 13850 15275
-Wire Wire Line
-	15100 15175 13850 15175
-Wire Wire Line
-	15100 15075 13850 15075
-Wire Wire Line
-	13775 14975 15100 14975
-Wire Wire Line
-	13850 14875 15100 14875
-Wire Wire Line
-	13725 14775 15100 14775
-Wire Wire Line
-	15100 14675 13850 14675
-Wire Wire Line
-	15100 14575 13850 14575
-Wire Wire Line
-	15100 14475 13850 14475
-Wire Wire Line
-	15100 14375 13850 14375
-Wire Wire Line
-	15100 14275 13850 14275
-Wire Wire Line
-	15100 14175 13850 14175
-Wire Wire Line
-	15100 14075 13850 14075
-Wire Wire Line
-	15100 13975 13850 13975
-Wire Wire Line
-	15100 15975 13850 15975
-Wire Wire Line
-	15100 16075 13850 16075
-Wire Wire Line
 	2600 15400 2800 15400
 Wire Wire Line
 	3600 15425 3375 15425
@@ -1864,9 +1826,9 @@ Wire Wire Line
 Wire Wire Line
 	19250 3425 19250 3325
 Wire Wire Line
-	9350 14725 9350 14500
+	7625 14900 7625 14675
 Wire Wire Line
-	9350 15025 9350 15150
+	7625 15200 7625 15325
 Wire Wire Line
 	15175 10650 15175 10875
 Wire Wire Line
@@ -1927,12 +1889,6 @@ Wire Notes Line
 	20275 12950 20275 9050
 Wire Notes Line
 	20275 9050 12950 9050
-Wire Notes Line
-	12425 13250 12425 15825
-Wire Notes Line
-	15925 15825 15925 13250
-Wire Notes Line
-	15925 13250 12425 13250
 Wire Wire Line
 	17700 4750 19075 4750
 Wire Notes Line
@@ -1958,18 +1914,6 @@ Wire Wire Line
 Wire Wire Line
 	19600 4650 19450 4650
 Wire Wire Line
-	13850 15775 15100 15775
-Wire Wire Line
-	15100 15375 13850 15375
-Wire Wire Line
-	15100 15475 13850 15475
-Wire Wire Line
-	15100 15575 13850 15575
-Wire Wire Line
-	15100 15675 13850 15675
-Wire Wire Line
-	13750 15875 15100 15875
-Wire Wire Line
 	15175 10350 15175 10275
 Wire Wire Line
 	15375 10350 15375 10275
@@ -1988,7 +1932,67 @@ Wire Wire Line
 Wire Wire Line
 	12850 7825 12850 8075
 Wire Wire Line
-	13325 14975 13475 14975
+	11675 15700 13050 15700
+Wire Wire Line
+	13050 15800 12850 15800
+Wire Wire Line
+	12850 15700 12850 16000
+Wire Wire Line
+	12850 15900 13050 15900
+Wire Wire Line
+	12850 16000 13050 16000
+Wire Wire Line
+	12800 15200 13050 15200
+Wire Wire Line
+	13050 15300 12950 15300
+Wire Wire Line
+	12950 15300 12950 15200
+Wire Wire Line
+	13050 13950 12300 13950
+Wire Wire Line
+	13050 14050 12300 14050
+Wire Wire Line
+	13050 13550 12300 13550
+Wire Wire Line
+	13050 13650 12300 13650
+Wire Wire Line
+	12300 14500 13050 14500
+Wire Wire Line
+	13050 14600 12300 14600
+Wire Wire Line
+	14750 13700 15550 13700
+Wire Wire Line
+	14750 13800 15550 13800
+Wire Wire Line
+	14750 13900 15550 13900
+Wire Wire Line
+	14750 14000 15550 14000
+Wire Wire Line
+	14750 14450 15550 14450
+Wire Wire Line
+	14750 14550 15550 14550
+Wire Wire Line
+	14750 14650 15550 14650
+Wire Wire Line
+	14750 14750 15550 14750
+Wire Wire Line
+	14750 15250 15275 15250
+Wire Wire Line
+	15675 15250 15575 15250
+Wire Wire Line
+	14750 15850 16450 15850
+Wire Wire Line
+	14750 15950 16450 15950
+Wire Wire Line
+	11675 15700 11675 15825
+Wire Notes Line
+	10875 13125 10875 16325
+Wire Notes Line
+	10875 16325 16825 16325
+Wire Notes Line
+	16825 16325 16825 13125
+Wire Notes Line
+	16825 13125 10875 13125
 Connection ~ 4700 11350
 Connection ~ 4200 11350
 Connection ~ 3925 11350
@@ -2070,15 +2074,15 @@ Connection ~ 2175 10500
 Connection ~ 4550 10500
 Connection ~ 6900 2075
 Connection ~ 6845 2075
-Connection ~ 9600 14500
-Connection ~ 10500 14500
-Connection ~ 10225 14500
-Connection ~ 9950 14500
-Connection ~ 10100 15150
-Connection ~ 10225 15150
-Connection ~ 9950 15150
-Connection ~ 10800 14500
-Connection ~ 10500 15150
+Connection ~ 7875 14675
+Connection ~ 8775 14675
+Connection ~ 8500 14675
+Connection ~ 8225 14675
+Connection ~ 8375 15325
+Connection ~ 8500 15325
+Connection ~ 8225 15325
+Connection ~ 9075 14675
+Connection ~ 8775 15325
 Connection ~ 9300 10300
 Connection ~ 9300 10725
 Connection ~ 9950 10725
@@ -2098,8 +2102,8 @@ Connection ~ 13350 3050
 Connection ~ 14725 2550
 Connection ~ 2825 3475
 Connection ~ 19375 3325
-Connection ~ 9350 14500
-Connection ~ 9600 15150
+Connection ~ 7625 14675
+Connection ~ 7875 15325
 Connection ~ 8275 10125
 Connection ~ 11150 10125
 Connection ~ 2800 14500
@@ -2107,6 +2111,10 @@ Connection ~ 15175 10275
 Connection ~ 15375 10275
 Connection ~ 15175 10775
 Connection ~ 12850 7225
+Connection ~ 12850 15700
+Connection ~ 12850 15800
+Connection ~ 12850 15900
+Connection ~ 12950 15200
 NoConn ~ 5800 11150
 NoConn ~ 5800 11250
 NoConn ~ 5825 2375
