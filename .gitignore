@@ -1,5 +1,5 @@
-.DS_Store
-.bak
-.bck
-.kicad_pcb-bak
-_autosave*
+*.DS_Store
+*.bak
+*.bck
+*.kicad_pcb-bak
+*_autosave*
