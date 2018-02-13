@@ -1,0 +1,22 @@
+### Module positions - created on Mon 12 Feb 2018 08:11:01 PM CST ###
+### Printed by Pcbnew version kicad 4.0.2+dfsg1-stable
+## Unit = inches, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+C16       0.1U      C_0402               5.9723    -3.4418    0.0000  bottom
+C17       47p       C_0402               5.4700    -3.5250    0.0000  bottom
+C18       47p       C_0402               5.9697    -3.8682  180.0000  bottom
+C19       47p       C_0402               5.4600    -3.7200    0.0000  bottom
+C20       47p       C_0402               5.4650    -3.6225    0.0000  bottom
+D10       PESD0402  R_0402               5.4575    -3.6675  180.0000  bottom
+D11       PESD0402  R_0402               5.4575    -3.7650  180.0000  bottom
+D12       PESD0402  R_0402               5.9733    -3.9179    0.0000  bottom
+D13       PESD0402  R_0402               5.4625    -3.5700  180.0000  bottom
+R1        0         R_0402               5.6240    -4.5715   90.0000  bottom
+R2        0         R_0402               5.5765    -4.5717   90.0000  bottom
+R23       0         R_0402               5.3625    -3.8975    0.0000  bottom
+R24       0         R_0402               5.3625    -3.9825    0.0000  bottom
+R26       0         R_0402               5.3625    -4.0250    0.0000  bottom
+R27       0         R_0402               5.3625    -3.9400    0.0000  bottom
+R28       0         R_0402               5.3080    -4.4520  270.0000  bottom
+## End
